@@ -21,7 +21,7 @@ Website interaktif untuk eksplorasi destinasi wisata di Lombok Barat. Proyek ini
 ## 🚀 Cara Menjalankan Secara Lokal
 1. **Clone repositori**:
    ```bash
-   git clone <url-repo-anda>
+   git clone https://github.com/Geger13/website_pariwisata.git
    cd website_pariwisata
    ```
 2. **Instal dependensi**:
@@ -49,4 +49,3 @@ Proyek ini dioptimalkan untuk di-deploy ke **Vercel**:
 - `src/components/`: Komponen UI (Map, Statistik, Destinasi).
 
 ---
-
