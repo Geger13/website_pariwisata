@@ -188,7 +188,7 @@ const TourismMap = () => {
             exit={{ x: -400, opacity: 0 }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
             style={{ width: `${sidebarWidth}px` }}
-            className="fixed md:relative flex flex-col h-full bg-white border-r border-emerald-50 shadow-2xl z-[2001] min-w-[200px]"
+            className="fixed md:relative flex flex-col h-[calc(100vh-140px)] md:h-full bg-white border-r border-emerald-50 shadow-2xl z-[2001] min-w-[280px] top-[70px] md:top-0"
           >
             <div className="p-3 pb-1">
               <div className="flex items-center justify-between mb-2">
@@ -217,7 +217,7 @@ const TourismMap = () => {
                 />
               </div>
 
-              <div className="flex flex-wrap items-center gap-1 pb-1 no-scrollbar">
+              <div className="flex items-center gap-1 pb-1 overflow-x-auto no-scrollbar">
                 {categories.map((cat) => (
                   <button
                     key={cat}
@@ -237,7 +237,7 @@ const TourismMap = () => {
               </div>
             </div>
 
-            <div className="flex-grow overflow-y-auto px-4 py-2 space-y-3 custom-scrollbar select-text">
+            <div className="flex-grow overflow-y-auto px-4 py-2 pb-20 space-y-3 custom-scrollbar select-text">
               {filteredData.map((item, index) => (
                 <SidebarItem
                   key={`${item.Nama}-${index}`}

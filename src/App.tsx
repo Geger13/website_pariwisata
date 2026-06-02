@@ -72,13 +72,13 @@ function App() {
           </div>
         </div>
 
-        <nav className="hidden md:flex items-center gap-8 text-xs font-black uppercase tracking-widest text-slate-400">
+        <nav className="flex items-center gap-6 md:gap-8 text-[10px] md:text-xs font-black uppercase tracking-widest text-slate-400 overflow-x-auto no-scrollbar whitespace-nowrap pb-1 md:pb-0">
           {["eksplorasi", "destinasi", "statistik", "tentang-kami"].map(
             (page) => (
               <button
                 key={page}
                 onClick={() => setActivePage(page)}
-                className={`hover:text-emerald-600 transition-all relative py-1 capitalize ${
+                className={`hover:text-emerald-600 transition-all relative py-1 capitalize flex-shrink-0 ${
                   activePage === page
                     ? "text-emerald-600 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-emerald-600 after:rounded-full"
                     : ""
