@@ -1,0 +1,2385 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2467,
+          -8.5178
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Aik Nyet",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Aiq/Aik (Sasak: 'water/river') + Nyet (Sasak: local plant name, likely Ficus sp. or riparian herb); descriptive-natural biotic name — the river characterised by a specific bankside plant.",
+        "Lokasi_Detail": "Sesaot, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1333,
+          -8.5167
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Air Terjun Grepek",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Air Terjun (ID: 'waterfall') + Grepek (Sasak: from grepek/gerpek, possibly 'to scratch/erode', referencing the erosion action of the falls on the rock face); morpho-geographic hydrological.",
+        "Lokasi_Detail": "Mambalan, Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1167,
+          -8.5333
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Air Terjun Prabe",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Air Terjun + Prabe (Sasak/Sanskrit: variant of praba/prabha 'radiance/light'); morpho-geographic waterfall, with a descriptive-luminous qualifier from Sanskrit.",
+        "Lokasi_Detail": "Prabe, Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.215,
+          -8.5583
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Air Terjun Segenter",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Air Terjun + Segenter (Sasak village/place name; possibly from senter 'to funnel/channel'); morpho-geographic waterfall named for the valley location.",
+        "Lokasi_Detail": "Lembah Sempage, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1944,
+          -8.5942
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Air Terjun Tibu Atas",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Tibu (Sasak: 'basin/plunge pool') + Atas (Malay/ID: 'upper/above'); morpho-geographic positional name — the upper waterfall basin.",
+        "Lokasi_Detail": "Buwun Sejati, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1812,
+          -8.5681
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Air Terjun Timponan",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Air Terjun + Timponan (Sasak: from timpoan/timboan 'to overflow/spill over'); morpho-geographic hydrological name describing the cascading character.",
+        "Lokasi_Detail": "Batu Mekar, Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.85,
+          -8.8166
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Bangko-Bangko",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Bangko-bangko — Sasak reduplicated form, possibly from bangko (a type of driftwood stump or coastal shrub); morpho-geographic coastal landform name.",
+        "Lokasi_Detail": "Batu Putek, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0833,
+          -8.7167
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Batu Idung",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Batu (Malay: 'stone/rock') + Idung (Sasak: 'nose'); morpho-geographic shape descriptor — a rock formation resembling a nose.",
+        "Lokasi_Detail": "Jembatan Gantung, Lembar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9885,
+          -8.7385
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Batu Kijuk",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Batu ('stone/rock') + Kijuk (Sasak: the barking deer, Muntiacus muntjak); morpho-geographic name referencing a rock associated with deer — boundary between MG and DN; classified MG as the rock (landform) is the naming anchor.",
+        "Lokasi_Detail": "Sekotong Barat, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.15,
+          -8.7
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Bukit Ledu",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Bukit (Malay: 'hill') + Ledu (Sasak: possibly from ledu, a type of thorny shrub or from 'to clear/open land'); morpho-geographic hill name.",
+        "Lokasi_Detail": "Giri Sasak, Kuripan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.15,
+          -8.5
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Bukit Tiga Rasa",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Bukit ('hill') + Tiga Rasa (ID: 'three tastes/flavours'); descriptive-natural sensory name — the hill is named for three distinct spring-water tastes (sweet, salty, sour) at its base, encoding gustatory ecological knowledge.",
+        "Lokasi_Detail": "Gelangsar, Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0581,
+          -8.8496
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Bukit Buwun Mas",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Buwun (Sasak: 'spring/well/water source') + Mas (Malay/ID: 'gold'); morpho-geographic hydrological name with a colour/value qualifier referencing golden mineral-rich water or gold-mining history.",
+        "Lokasi_Detail": "Buwun Mas, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1083,
+          -8.6483
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Centra Kerajinan Gerabah",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Centra Kerajinan (ID: 'craft centre') + Gerabah (ID: 'earthenware pottery'); ethno-cultural craft-identity name — the place defined by its Sasak pottery tradition.",
+        "Lokasi_Detail": "Banyumulek, Kediri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.25,
+          -8.583
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "DAM Keru",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "DAM (English/Dutch loanword: 'dam/weir') + Keru (Sasak village name, uncertain root); morpho-geographic hydraulic infrastructure name.",
+        "Lokasi_Detail": "Keru, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1218,
+          -8.6407
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Banyumulek",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Banyu (Javanese: 'water') + Mulek (Sasak/Javanese: 'to revolve', referencing the potter's wheel); formally designated administrative village unit.",
+        "Lokasi_Detail": "Kediri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2021,
+          -8.5718
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Batu Kumbung",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Batu ('stone') + Kumbung (Malay/Sasak: 'open-sided granary shed'); formally designated administrative village unit.",
+        "Lokasi_Detail": "Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.207,
+          -8.5541
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Batu Mekar",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Batu Mekar (ID: 'blossoming stone') — aspirational administrative epithet; formally designated.",
+        "Lokasi_Detail": "Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9167,
+          -8.7444
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Batu Putih",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Batu Putih (Malay/ID: 'white stone/rock'); morpho-geographic geological descriptor used as a village name — white limestone outcrops characterise the area.",
+        "Lokasi_Detail": "Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.072,
+          -8.507
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Batulayar",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Batu ('stone') + Layar (ID: 'sail'); morpho-geographic — references a sail-shaped rock formation; the village is named for the landmark.",
+        "Lokasi_Detail": "Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0615,
+          -8.5115
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Batulayar Barat",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Barat (ID: 'west') — cardinal direction suffix added in administrative sub-division of Desa Batulayar; formally designated.",
+        "Lokasi_Detail": "Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0927,
+          -8.5292
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Bengkaung",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Bengkaung (Sasak: possibly from bengkung 'curved/bent'); formally designated administrative village unit.",
+        "Lokasi_Detail": "Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1241,
+          -8.495
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Bukit Tinggi",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Bukit Tinggi (ID: 'high hill'); morpho-geographic height descriptor used as an administrative village name.",
+        "Lokasi_Detail": "Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0581,
+          -8.8496
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Buwun Mas",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Buwun Mas ('golden spring'); formally designated administrative village unit — the morpho-geographic name functions administratively.",
+        "Lokasi_Detail": "Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2467,
+          -8.5178
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Buwun Sejati",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Buwun Sejati (ID/Sasak: 'true/genuine spring') — aspirational administrative epithet added to the original toponym; formally designated.",
+        "Lokasi_Detail": "Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0726,
+          -8.7839
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Cendi Manik",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Cendi Manik (Sasak: cendi 'to shine/glitter' + manik 'bead/jewel'); aspirational administrative name; formally designated.",
+        "Lokasi_Detail": "Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1483,
+          -8.5554
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Dasan Geria",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Dasan (Sasak: 'settlement/hamlet') + Geria (Balinese: 'Brahmin house/quarters'); encodes Balinese caste-settlement history; formally designated.",
+        "Lokasi_Detail": "Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2069,
+          -8.5192
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Gegelang",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Gegelang (Sasak: from gelang 'bracelet/ring'; reduplicated form); formally designated administrative unit.",
+        "Lokasi_Detail": "Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1345,
+          -8.5221
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Gelangsar",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Gelangsar (Sasak: 'to slide/slip'); formally designated administrative unit.",
+        "Lokasi_Detail": "Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9281,
+          -8.7486
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Gili Gede Indah",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Gili Gede (Sasak: 'large small-island') + Indah (ID: 'beautiful') — aspirational epithet appended; formally designated.",
+        "Lokasi_Detail": "Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.168,
+          -8.5343
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Giri Madia",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Giri (Sanskrit: 'mountain') + Madia (Balinese/Sanskrit: 'middle'); formally designated with Sanskrit heritage naming.",
+        "Lokasi_Detail": "Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.176,
+          -8.7082
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Giri Sasak",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Giri ('mountain') + Sasak (the ethnonym of the indigenous people of Lombok); encodes Sasak ethnic self-identity — ethno-cultural.",
+        "Lokasi_Detail": "Kuripan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1218,
+          -8.695
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Giri Tembesi",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Giri ('mountain') + Tembesi (Sasak: a type of hardwood, Fagraea fragrans); formally designated administrative unit.",
+        "Lokasi_Detail": "Gerung"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2359,
+          -8.5928
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Golong",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Golong (Sasak: 'united/gathered together'); formally designated — commemorates the social character of community unity.",
+        "Lokasi_Detail": "Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.123,
+          -8.521
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Guntur Macan",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Guntur Macan (ID: 'tiger's thunder'); formally designated — power-animal commemorative administrative name.",
+        "Lokasi_Detail": "Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.085,
+          -8.552
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Jatisela",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Jatisela (Javanese: jati 'teak tree' + sela 'gap between rocks'); formally designated with Javanese heritage naming.",
+        "Lokasi_Detail": "Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1787,
+          -8.5606
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Karang Bayan",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Karang (Malay: 'reef/village cluster') + Bayan (Sasak: 'parrot', Eclectus roratus); formally designated — the biotic name functions administratively.",
+        "Lokasi_Detail": "Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0828,
+          -8.6681
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Kebon Ayu",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Kebon (Javanese: 'garden/orchard') + Ayu (Javanese/Balinese: 'beautiful'); encodes Javanese agricultural-aesthetic tradition — ethno-cultural.",
+        "Lokasi_Detail": "Gerung"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1639,
+          -8.6394
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Kediri",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Kediri — name of an ancient Hindu-Javanese kingdom (Sanskrit-derived); administrative commemorative naming with Hindu-Javanese historical resonance.",
+        "Lokasi_Detail": "Kediri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.107,
+          -8.493
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Kekait",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Kekait (Sasak: from kait 'to hook/catch'; reduplicated = 'many hooks'); formally designated administrative unit.",
+        "Lokasi_Detail": "Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0875,
+          -8.6425
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Kuranji",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Kuranji (Sasak/Malay: possibly from kurangi, a type of plant, Elaeocarpus sp.); formally designated administrative unit.",
+        "Lokasi_Detail": "Labuapi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0731,
+          -8.6313
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Kuranji Dalang",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Kuranji + Dalang (Javanese: 'shadow-puppet master'); encodes the Javanese wayang performance tradition — ethno-cultural.",
+        "Lokasi_Detail": "Labuapi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1625,
+          -8.6842
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Kuripan Induk",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Kuripan (Sasak: uncertain root) + Induk (ID: 'mother/parent = main settlement'); formally designated administrative unit.",
+        "Lokasi_Detail": "Kuripan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.165,
+          -8.701
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Kuripan Selatan",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Selatan (ID: 'south') — directional administrative suffix; formally designated.",
+        "Lokasi_Detail": "Kuripan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.165,
+          -8.701
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Kuripan Selatan (2)",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Duplicate entry in source register — same designation as #43; formally designated.",
+        "Lokasi_Detail": "Kuripan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.174,
+          -8.526
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Langko",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Langko (Sasak: a type of bamboo or wicker basket); formally designated administrative unit.",
+        "Lokasi_Detail": "Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.287,
+          -8.516
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Lembah Sempage",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Lembah (Malay: 'valley') + Sempage (Sasak: from sempage, uncertain — possibly a type of tree or the sound of rushing water); morpho-geographic valley name used as a village designation.",
+        "Lokasi_Detail": "Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0719,
+          -8.6998
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Lembar",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Lembar (Sasak/Malay: possibly from lembar 'sheet/flat area', referencing flat coastal terrain); formally designated administrative unit.",
+        "Lokasi_Detail": "Lembar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0728,
+          -8.7193
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Lembar Selatan",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Selatan ('south') — directional administrative suffix; formally designated.",
+        "Lokasi_Detail": "Lembar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1156,
+          -8.7731
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Mareje Timur",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Mareje (Sasak village name, uncertain root) + Timur (ID: 'east') — directional administrative suffix; formally designated.",
+        "Lokasi_Detail": "Lembar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1139,
+          -8.4958
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Mekarsari",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Mekarsari (ID: mekar 'to bloom' + sari 'essence/flower'); aspirational administrative name; formally designated.",
+        "Lokasi_Detail": "Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1139,
+          -8.4958
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Mekarsari",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Same aspirational name applied to a second village in Narmada sub-district; formally designated.",
+        "Lokasi_Detail": "Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.076,
+          -8.546
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Meninting",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Meninting (Sasak: from tintin/meninting 'to carry on a shoulder pole'); formally designated administrative unit.",
+        "Lokasi_Detail": "Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.115,
+          -8.553
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Midang",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Midang (Sasak: 'to stroll/parade'); formally designated administrative unit.",
+        "Lokasi_Detail": "Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2049,
+          -8.5938
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Narmada",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Narmada (Sanskrit: name of a sacred river in India; applied to this settlement by Balinese royalty); formally designated administrative unit.",
+        "Lokasi_Detail": "Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.192,
+          -8.59
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Nyurlembang",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Nyurlembang (Sasak: nyur 'coconut palm' + lembang 'valley'); formally designated administrative unit.",
+        "Lokasi_Detail": "Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2675,
+          -8.5351
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Pakuan",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Pakuan (from pakuan, a type of fern, Stenochlaena palustris); formally designated administrative unit.",
+        "Lokasi_Detail": "Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9291,
+          -8.7837
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Pelangan",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Pelangan (Sasak: from pelangan, uncertain root — possibly a type of coastal plant or from pelang 'striped/barred'); formally designated administrative unit.",
+        "Lokasi_Detail": "Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.168,
+          -8.497
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Penimbung",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Penimbung (Sasak: from timbung 'to heap up/accumulate'); formally designated administrative unit.",
+        "Lokasi_Detail": "Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0832,
+          -8.4653
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Pusuk Lestari",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Pusuk (Sasak: 'summit/top of a pass') + Lestari (ID: 'enduring/sustainable') — conservation epithet appended to morpho-geographic root; formally designated.",
+        "Lokasi_Detail": "Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1812,
+          -8.5665
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Sari Baya",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Sari (Malay: 'essence/core') + Baya (Malay: 'crocodile/age'); formally designated administrative unit.",
+        "Lokasi_Detail": "Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.283,
+          -8.548
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Sedau",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Sedau (Sasak: uncertain root, possibly a type of grass or sedge); formally designated administrative unit.",
+        "Lokasi_Detail": "Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0083,
+          -8.7519
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Sekotong Barat",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Sekotong (Sasak: possibly kotong 'cut off/isolated') + Barat ('west'); directional administrative suffix; formally designated.",
+        "Lokasi_Detail": "Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0342,
+          -8.8239
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Sekotong Tengah",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Sekotong + Tengah (ID: 'middle/central'); directional administrative suffix; formally designated.",
+        "Lokasi_Detail": "Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0389,
+          -8.4753
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Senggigi",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Senggigi (Sasak toponym of uncertain root, possibly from sengi 'to drift'); formally designated administrative village unit.",
+        "Lokasi_Detail": "Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.077,
+          -8.534
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Senteluk",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Senteluk (Sasak: uncertain root); formally designated administrative unit.",
+        "Lokasi_Detail": "Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.275,
+          -8.487
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Sesaot",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Sesaot (Sasak: possibly from sesaot/saot 'source/spring point'); formally designated administrative unit.",
+        "Lokasi_Detail": "Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.096,
+          -8.552
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Sesela",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Sesela (Sasak: possibly from sela 'gap/pass between rocks'); formally designated administrative unit.",
+        "Lokasi_Detail": "Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.24,
+          -8.564
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Suranadi",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Suranadi (Sanskrit: sura 'divine/deity' + nadi 'river'); formally designated administrative unit — the Sanskrit religious toponym functions administratively.",
+        "Lokasi_Detail": "Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0864,
+          -8.6569
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Taman Ayu",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Taman Ayu (Javanese/Balinese: taman 'garden' + ayu 'beautiful'); encodes Balinese-Javanese aesthetic-cultural tradition — ethno-cultural.",
+        "Lokasi_Detail": "Gerung"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1454,
+          -8.7019
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Tempos",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Tempos (Sasak: uncertain root, possibly seasonal/temporal reference); formally designated administrative unit.",
+        "Lokasi_Detail": "Gerung"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.85,
+          -8.8167
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desert Point",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Desert Point — English commercial alias for Pantai Bangko-Bangko; descriptive-natural name invoking the arid, remote, windswept sensory character of the surf break. A neologistic tourism-commercial toponym.",
+        "Lokasi_Detail": "Batu Putih, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9189,
+          -8.7383
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Elak-Elak",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Elak-Elak (Sasak: reduplicated form of elak 'to dodge/avoid'); morpho-geographic coastal name — may reference a zigzag shoreline or wave pattern requiring navigation skill.",
+        "Lokasi_Detail": "Sekotong Barat, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0667,
+          -8.7417
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Embung Kedaro",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Embung (Javanese/ID: 'small reservoir/retention pond') + Kedaro (Sasak village name, uncertain root); morpho-geographic hydrological infrastructure name.",
+        "Lokasi_Detail": "Kedaro, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8869,
+          -8.7381
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Asahan",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Gili (Sasak: 'small island') + Asahan (Sasak: from asah 'to sharpen'; asahan = 'whetstone'); morpho-geographic — the island's rough stone texture resembles a whetstone.",
+        "Lokasi_Detail": "Batu Putek, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9281,
+          -8.7486
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Gede",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Gili + Gede (Balinese/Sasak: 'large/great'); morpho-geographic size descriptor — the largest island in the Sekotong group.",
+        "Lokasi_Detail": "Gili Gede Indah, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9255,
+          -8.7355
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Genting",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Gili + Genting (Malay: 'narrow isthmus/critical point'); morpho-geographic — references the narrow spit connecting two land masses.",
+        "Lokasi_Detail": "Tawun, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9185,
+          -8.7245
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Goleng",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Gili + Goleng (Sasak: from goleng/gulung 'to roll/rounded'); morpho-geographic shape descriptor — the island's rounded form.",
+        "Lokasi_Detail": "Batu Putek, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0256,
+          -8.7308
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Kedis",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Gili + Kedis (Sasak: 'bird'); descriptive-natural faunal name — the island characterised by its bird population.",
+        "Lokasi_Detail": "Sekotong Tengah, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9101,
+          -8.729
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Layar",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Gili + Layar (Malay: 'sail'); morpho-geographic — references the island's sail-like profile or role as a sailing landmark.",
+        "Lokasi_Detail": "Pelangan, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9355,
+          -8.7455
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Lontar",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Gili + Lontar (Malay/Sasak: the lontar palm, Borassus flabellifer); descriptive-natural biotic name — the island characterised by its dominant palm species.",
+        "Lokasi_Detail": "Tawun, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.064,
+          -8.7414
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Mas",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Gili + Mas (Malay/ID: 'gold'); descriptive-natural colour/value name — the island named for its golden-sand or golden-light appearance.",
+        "Lokasi_Detail": "Mareje Timur, Lembar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0106,
+          -8.7193
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Nanggu",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Gili + Nanggu (Sasak: possibly a type of coastal vine or rope plant); morpho-geographic island with biotic structural qualifier.",
+        "Lokasi_Detail": "Tawun, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0055,
+          -8.7395
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Poh",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Gili + Poh (Sasak: the mango tree, Mangifera indica); descriptive-natural biotic name — the island characterised by its mango trees.",
+        "Lokasi_Detail": "Tawun, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9015,
+          -8.7215
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Rengit",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Gili + Rengit (Sasak: 'mosquito'); descriptive-natural faunal/sensory name — encoding the unpleasant insect character of the island.",
+        "Lokasi_Detail": "Pelangan, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0315,
+          -8.7235
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Sudak",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Gili + Sudak (Sasak: possibly 'to pierce/spear through'); morpho-geographic — references the island's narrow, pointed landform.",
+        "Lokasi_Detail": "Tawun, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0195,
+          -8.7258
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Tangkong",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Gili + Tangkong (Sasak: a coastal vine, Caesalpinia bonduc); descriptive-natural biotic name — the island characterised by its dominant creeper species.",
+        "Lokasi_Detail": "Tawun, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2167,
+          -8.6167
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Goa Alam Raksasa",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Goa (Malay: 'cave') + Alam (ID: 'natural/nature') + Raksasa (Sanskrit/ID: 'giant'); morpho-geographic cave name with a size/scale descriptor.",
+        "Lokasi_Detail": "Sepi, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2333,
+          -8.5833
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Goa Lembah Sempage",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Goa ('cave') + Lembah (Malay: 'valley') + Sempage (Sasak: uncertain); morpho-geographic cave in a valley.",
+        "Lokasi_Detail": "Sesaot, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9167,
+          -8.8
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gua Jepang Labuan Poh",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Gua ('cave') + Jepang (ID: 'Japanese') + Labuan (Malay: 'anchorage/harbour') + Poh (Sasak: 'mango tree'); ethno-cultural historical name commemorating WWII Japanese military cave fortifications.",
+        "Lokasi_Detail": "Batu Putek, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2333,
+          -8.6167
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gunung Jae",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Gunung (Malay: 'mountain') + Jae (Sasak: 'ginger', Zingiber officinale); morpho-geographic mountain name with biotic qualifier — ginger cultivated or found wild on the slopes.",
+        "Lokasi_Detail": "Sedau, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1167,
+          -8.65
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gunung Pengsong",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Gunung + Pengsong (Balinese/Sasak: from pengsong 'to move/migrate'; referencing a mythological story of the Balinese royal family relocating their sacred hill temple); ethno-cultural religious-mythological.",
+        "Lokasi_Detail": "Parampuan, Labuapi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.176,
+          -8.7082
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gunung Sasak",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Gunung + Sasak (the ethnonym of the indigenous people of Lombok); ethno-cultural — the mountain named for the Sasak people, encoding ethnic territorial identity.",
+        "Lokasi_Detail": "Kuripan, Kuripan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1167,
+          -8.4833
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Hutan Wisata Pusuk",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Hutan Wisata (ID: 'tourism forest') + Pusuk (Sasak: 'summit/top of a pass'); morpho-geographic forested mountain-pass area.",
+        "Lokasi_Detail": "Lembah Sari, Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2167,
+          -8.5833
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Hutan Wisata Sesaot",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Hutan Wisata + Sesaot (Sasak: possibly 'spring/source point'); morpho-geographic forest at a watershed source area.",
+        "Lokasi_Detail": "Sesaot, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2,
+          -8.5833
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Hutan Wisata Suranadi",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Hutan Wisata + Suranadi (Sanskrit: sura 'divine' + nadi 'river'); ethno-cultural — the forest named for its sacred Hindu river, encoding religious significance.",
+        "Lokasi_Detail": "Suranadi, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.19,
+          -8.5286
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Karang Bayan",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Karang (Malay: 'reef/village cluster') + Bayan (Sasak: 'parrot', Eclectus roratus); ethno-cultural — the parrot holds sacred status in local Waktu Telu tradition; the village is defined by this ritual-faunal identity.",
+        "Lokasi_Detail": "Karang Bayan, Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0828,
+          -8.6681
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Kebun Melon",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Kebun (ID: 'garden/plantation') + Melon (ID: 'melon'); ethno-cultural agro-economic identity name — the attraction defined by its melon-farming practice.",
+        "Lokasi_Detail": "Kebun Ayu, Gerung"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0351,
+          -8.4852
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Kerandangan",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Kerandangan (Sasak: possibly from kerandang, a type of coastal scrub vegetation); morpho-geographic — the beach/forest named for its characteristic coastal scrub habitat.",
+        "Lokasi_Detail": "Senggigi, Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1495,
+          -8.6352
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Kokok Babak Kediri",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Kokok (Sasak: 'stream/small river') + Babak (Sasak: 'stretch/section') + Kediri (village name); morpho-geographic hydrological name — a named river stretch.",
+        "Lokasi_Detail": "Kediri, Kediri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0606,
+          -8.5163
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Makam Batulayar",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Makam (Indonesian: 'tomb/grave') + Batulayar (sail-shaped rock); sacred Islamic tomb of a venerated religious figure (*wali*) — ethno-cultural religious.",
+        "Lokasi_Detail": "Batulayar, Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0833,
+          -8.6333
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Makam Ilham",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Makam ('tomb') + Ilham (Indonesian: 'divine inspiration/revelation'); sacred Islamic tomb of a venerated figure — ethno-cultural religious.",
+        "Lokasi_Detail": "Kuranji, Labuapi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0333,
+          -8.7833
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Makam Keramat",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Makam ('tomb') + Keramat (Malay: 'sacred/venerated'); a generic term for a sacred Islamic tomb — ethno-cultural religious.",
+        "Lokasi_Detail": "Kedaro, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0667,
+          -8.7167
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Makam Keramat Cemare",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Makam Keramat + Cemare (Sasak: the casuarina tree, Casuarina equisetifolia); ethno-cultural sacred tomb at a casuarina-lined coastal site.",
+        "Lokasi_Detail": "Cemare, Lembar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1281,
+          -8.5495
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Makam Mambalan",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Makam + Mambalan (Sasak village name, uncertain root); sacred Islamic tomb — ethno-cultural religious.",
+        "Lokasi_Detail": "Mambalan, Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.05,
+          -8.7333
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Mangrove Bagek Kembar",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Mangrove (English loan) + Bagek (Sasak: 'stream mouth/estuary') + Kembar (Malay: 'twin/paired'); morpho-geographic — twin mangrove estuaries.",
+        "Lokasi_Detail": "Cendi Manik, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0667,
+          -8.75
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Mangrove Tanjung Batu",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Mangrove + Tanjung (Malay: 'cape/headland') + Batu ('stone/rock'); morpho-geographic — mangrove forest at a rocky headland.",
+        "Lokasi_Detail": "Sekotong Tengah, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.19,
+          -8.5286
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Masjid Kuno Karang Bayan",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Masjid Kuno (Indonesian/Malay: 'ancient mosque') + Karang Bayan; ethno-cultural religious heritage — a historical Islamic place of worship, among the oldest mosques on Lombok.",
+        "Lokasi_Detail": "Karang Bayan, Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1833,
+          -8.55
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Mata Air Manggong",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Mata Air (Malay: 'spring/eye of water') + Manggong (Sasak: from manggong, a type of freshwater plant or from 'to gurgle'); morpho-geographic freshwater spring name.",
+        "Lokasi_Detail": "Batu Kumbung, Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2359,
+          -8.5928
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Padang Golf Golong",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Padang Golf (ID: 'golf course') + Golong (Sasak: 'united/gathered'); administrative-commercial recreation facility designation.",
+        "Lokasi_Detail": "Sedau, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0833,
+          -8.9167
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Bange",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Pantai (Malay/ID: 'beach') + Bange (Sasak: possibly from bange/mbange, a type of coastal grass or the sound of waves); morpho-geographic coastal name.",
+        "Lokasi_Detail": "Sepi, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0582,
+          -8.7207
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Cemare",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Pantai + Cemare (Sasak: the casuarina tree, Casuarina equisetifolia); descriptive-natural biotic name — the beach characterised by its casuarina tree line.",
+        "Lokasi_Detail": "Cemare, Lembar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0515,
+          -8.5045
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Duduk",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Pantai + Duduk (ID/Sasak: 'to sit/sitting'); descriptive-natural name encoding the sensory-experiential quality of the beach — a calm, serene place inviting one to sit and rest.",
+        "Lokasi_Detail": "Senggigi, Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.065,
+          -8.695
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Induk",
+        "Jenis_Wisata": "Admin-commemorative",
+        "Kategori": "Admin-commemorative",
+        "Deskripsi": "Pantai + Induk (ID: 'mother/main'); administrative naming — the primary/main beach of the area; functions as a hub designation.",
+        "Lokasi_Detail": "Kebun Ayu, Gerung"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0655,
+          -8.6485
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Kuranji Dalang",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Kuranji Dalang (see Desa Kuranji Dalang #41) — beach named for the Dalang (shadow-puppet master) tradition; ethno-cultural.",
+        "Lokasi_Detail": "Kuranji Dalang, Labuapi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.045,
+          -8.505
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Loco",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Loco (uncertain — possibly from Sasak loko/loco 'bend/curve', referencing the curved bay shape; or from Portuguese/Spanish loco 'wild'); morpho-geographic coastal shape name.",
+        "Lokasi_Detail": "Senggigi, Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.04,
+          -8.52
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Mangsit",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Mangsit (Sasak: 'to beckon/call out'); oral tradition names this as a landmark for sailors — morpho-geographic coastal navigation anchor.",
+        "Lokasi_Detail": "Senggigi, Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9214,
+          -8.8811
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Mekaki",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Mekaki (Sasak toponym of uncertain root); morpho-geographic coastal place name for this stretch of shore.",
+        "Lokasi_Detail": "Pelangan, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.076,
+          -8.546
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Meninting",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Pantai + Meninting (from the village name; Sasak: possibly from tintin 'to carry'); morpho-geographic coastal name tied to the settlement.",
+        "Lokasi_Detail": "Meninting, Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0996,
+          -8.7485
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Nambung",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Pantai + Nambung (Sasak: possibly from tambung/nambung 'protruding coastal rock'); morpho-geographic — references the rock formation creating a natural arch/waterfall effect.",
+        "Lokasi_Detail": "Sepi, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.05,
+          -8.925
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Orong Bukal",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Orong (Sasak: 'ravine/gully') + Bukal (Sasak: 'spring/upwelling'); morpho-geographic compound describing a beach at a coastal ravine with freshwater spring.",
+        "Lokasi_Detail": "Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0447,
+          -8.4952
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Senggigi",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Pantai + Senggigi (Sasak: uncertain root, possibly from sengi 'to drift/wave'); morpho-geographic coastal name.",
+        "Lokasi_Detail": "Senggigi, Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0386,
+          -8.9144
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Sepi",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Pantai + Sepi (ID: 'quiet/deserted/isolated'); descriptive-natural name encoding the sensory quality of solitude and silence — an auditory-atmospheric descriptor.",
+        "Lokasi_Detail": "Sepi, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0635,
+          -8.5345
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Tanjung Bias",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Pantai + Tanjung (Malay: 'cape/headland') + Bias (Malay: 'fine sand/filtered light'); morpho-geographic cape name with a textural-optical qualifier.",
+        "Lokasi_Detail": "Senggigi, Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.085,
+          -8.655
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Uringin",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Pantai + Uringin (Sasak: the weeping fig, Ficus benjamina); morpho-geographic biotic beach name — the beach characterised by its weeping fig trees.",
+        "Lokasi_Detail": "Kuranji, Labuapi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.945,
+          -8.765
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pao-Pao",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Pao-Pao (Sasak: reduplicated form of pao, 'mango'; Mangifera sp.); descriptive-natural biotic name — the place characterised by an abundance of mango trees.",
+        "Lokasi_Detail": "Batu Putih, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.096,
+          -8.552
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pasar Seni Sesela",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Pasar Seni (ID: 'art market') + Sesela (Sasak village name); ethno-cultural craft/commercial-identity name — the place defined by its artisan market tradition.",
+        "Lokasi_Detail": "Sesela, Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0691,
+          -8.7176
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pelabuhan Lembar",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Pelabuhan (Malay: 'port/harbour') + Lembar (Sasak: possibly 'flat area'); morpho-geographic maritime infrastructure name.",
+        "Lokasi_Detail": "Lembar, Lembar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1115,
+          -8.545
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pura Agung",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Pura (Sanskrit via Balinese: 'Hindu temple') + Agung (Sanskrit/Balinese: 'great/supreme'); ethno-cultural religious — a supreme Hindu temple, encoding Balinese cosmological hierarchy.",
+        "Lokasi_Detail": "Gunungsari, Gunungsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1005,
+          -8.577
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pura Batu Bolong",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Pura + Batu Bolong (Malay: 'hollow rock'); ethno-cultural religious — Hindu temple occupying a geomorphic coastal landmark.",
+        "Lokasi_Detail": "Batulayar, Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1801,
+          -8.5758
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pura Lingsar",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Pura + Lingsar (Sasak: possibly from lingsir 'to decline/set', referencing western orientation); the multi-faith Hindu-Sasak-Waktu Telu-Buddhist temple — ethno-cultural religious.",
+        "Lokasi_Detail": "Lingsar, Lingsar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2442,
+          -8.5417
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Purekmas Sesaot",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Purekmas (acronym/branding: Pusat Rekreasi Keluarga Masyarakat, 'Family Community Recreation Centre'); ethno-cultural community-social facility — the name encodes community social structure and collective leisure identity.",
+        "Lokasi_Detail": "Sesaot, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0944,
+          -8.489
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pusuk Lestari",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Pusuk (Sasak: 'summit/top of mountain pass') + Lestari (ID: 'enduring/sustainable'); morpho-geographic landform name — the pass/summit — with an appended conservation qualifier.",
+        "Lokasi_Detail": "Pusuk Pas, Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.215,
+          -8.585
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Taman Gandari Kawari",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Taman ('garden') + Gandari (Sanskrit: from Gandhari, a queen in the Mahabharata; or from gandha 'fragrance') + Kawari (Sasak: 'special/unique'); ethno-cultural name encoding Hindu literary-cultural heritage.",
+        "Lokasi_Detail": "Narmada, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0927,
+          -8.5292
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Taman Langit",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Taman ('garden/park') + Langit (ID: 'sky'); descriptive-natural name evoking the sky-facing, elevated, open-air sensory experience of this hilltop viewpoint.",
+        "Lokasi_Detail": "Bengkaung, Batulayar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2167,
+          -8.5861
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Taman Narmada",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Taman + Narmada (Sanskrit: sacred river name, applied by Balinese King Anak Agung Gede Ngurah as spiritual analogy to Mount Rinjani and sacred Balinese rivers); ethno-cultural Hindu royal-religious commemorative.",
+        "Lokasi_Detail": "Lembuak, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.24,
+          -8.564
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Taman Suranadi",
+        "Jenis_Wisata": "Ethno-cultural",
+        "Kategori": "Ethno-cultural",
+        "Deskripsi": "Taman + Suranadi (Sanskrit: sura 'divine' + nadi 'river'); ethno-cultural religious — the park at the sacred divine river, encoding Hindu cosmological naming.",
+        "Lokasi_Detail": "Suranadi, Narmada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0267,
+          -8.7401
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Tanjung Kelor",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Tanjung (Malay: 'cape/headland') + Kelor (Malay/ID: the moringa tree, Moringa oleifera); morpho-geographic cape name with a biotic qualifier — moringa trees mark the headland.",
+        "Lokasi_Detail": "Sekotong Tengah, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9895,
+          -8.7385
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Tawun",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Tawun (Sasak: from tawun/tewun, possibly 'a place of gathering' or a type of coastal plant); morpho-geographic coastal settlement name.",
+        "Lokasi_Detail": "Sekotong Barat, Sekotong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.125,
+          -8.755
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Telaga Pandan Wangi",
+        "Jenis_Wisata": "Descriptive-natural",
+        "Kategori": "Descriptive-natural",
+        "Deskripsi": "Telaga (Malay: 'lake/pond') + Pandan Wangi (Malay: the fragrant pandan, Pandanus amaryllifolius); descriptive-natural name encoding both a water feature and an olfactory quality — the pond characterised by the fragrance of pandan.",
+        "Lokasi_Detail": "Mareje Timur, Lembar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9418,
+          -8.7672
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Tembowong",
+        "Jenis_Wisata": "Morpho-geographic",
+        "Kategori": "Morpho-geographic",
+        "Deskripsi": "Tembowong (Sasak: possibly from tembong 'to appear/emerge' or buwong 'a spring/water hole that surfaces'); morpho-geographic hydrological name — a natural water source that emerges from the ground.",
+        "Lokasi_Detail": "Batu Putih, Sekotong"
+      }
+    }
+  ]
+}

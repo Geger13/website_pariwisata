@@ -1,0 +1,244 @@
+{
+  "languageDistribution": [
+    {
+      "language": "Javanese/Sasak",
+      "total": 1
+    },
+    {
+      "language": "English",
+      "total": 1
+    },
+    {
+      "language": "Indonesian/Sasak",
+      "total": 16
+    },
+    {
+      "language": "Indonesian/Sanskrit",
+      "total": 1
+    },
+    {
+      "language": "Sanskrit/Balinese",
+      "total": 1
+    },
+    {
+      "language": "Javanese",
+      "total": 1
+    },
+    {
+      "language": "Sanskrit/Indonesian",
+      "total": 1
+    },
+    {
+      "language": "Indonesian/Javanese",
+      "total": 1
+    },
+    {
+      "language": "Javanese/Balinese",
+      "total": 2
+    },
+    {
+      "language": "Sasak/Javanese",
+      "total": 2
+    },
+    {
+      "language": "Sanskrit/Sasak",
+      "total": 2
+    },
+    {
+      "language": "Sasak/Sanskrit",
+      "total": 3
+    },
+    {
+      "language": "Sasak/Balinese",
+      "total": 3
+    },
+    {
+      "language": "Sanskrit",
+      "total": 6
+    },
+    {
+      "language": "Sasak/Indonesian",
+      "total": 14
+    },
+    {
+      "language": "Indonesian",
+      "total": 25
+    },
+    {
+      "language": "Sasak",
+      "total": 60
+    }
+  ],
+  "categoryLanguageBreakdown": [
+    {
+      "category": "Admin-commemorative",
+      "language": "Indonesian",
+      "total": 10
+    },
+    {
+      "category": "Admin-commemorative",
+      "language": "Indonesian/Javanese",
+      "total": 1
+    },
+    {
+      "category": "Admin-commemorative",
+      "language": "Indonesian/Sasak",
+      "total": 3
+    },
+    {
+      "category": "Admin-commemorative",
+      "language": "Javanese",
+      "total": 1
+    },
+    {
+      "category": "Admin-commemorative",
+      "language": "Javanese/Sasak",
+      "total": 1
+    },
+    {
+      "category": "Admin-commemorative",
+      "language": "Sanskrit",
+      "total": 4
+    },
+    {
+      "category": "Admin-commemorative",
+      "language": "Sanskrit/Sasak",
+      "total": 1
+    },
+    {
+      "category": "Admin-commemorative",
+      "language": "Sasak",
+      "total": 21
+    },
+    {
+      "category": "Admin-commemorative",
+      "language": "Sasak/Balinese",
+      "total": 1
+    },
+    {
+      "category": "Admin-commemorative",
+      "language": "Sasak/Indonesian",
+      "total": 7
+    },
+    {
+      "category": "Descriptive-natural",
+      "language": "English",
+      "total": 1
+    },
+    {
+      "category": "Descriptive-natural",
+      "language": "Indonesian/Sasak",
+      "total": 1
+    },
+    {
+      "category": "Descriptive-natural",
+      "language": "Indonesian",
+      "total": 3
+    },
+    {
+      "category": "Descriptive-natural",
+      "language": "Sasak",
+      "total": 8
+    },
+    {
+      "category": "Descriptive-natural",
+      "language": "Sasak/Indonesian",
+      "total": 2
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Indonesian/Sanskrit",
+      "total": 1
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Indonesian",
+      "total": 6
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Indonesian/Sasak",
+      "total": 3
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Javanese/Balinese",
+      "total": 2
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Sanskrit",
+      "total": 2
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Sanskrit/Balinese",
+      "total": 1
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Sanskrit/Indonesian",
+      "total": 1
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Sanskrit/Sasak",
+      "total": 1
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Sasak",
+      "total": 2
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Sasak/Balinese",
+      "total": 1
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Sasak/Indonesian",
+      "total": 2
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Sasak/Javanese",
+      "total": 2
+    },
+    {
+      "category": "Ethno-cultural",
+      "language": "Sasak/Sanskrit",
+      "total": 2
+    },
+    {
+      "category": "Morpho-geographic",
+      "language": "Indonesian/Sasak",
+      "total": 9
+    },
+    {
+      "category": "Morpho-geographic",
+      "language": "Indonesian",
+      "total": 6
+    },
+    {
+      "category": "Morpho-geographic",
+      "language": "Sasak",
+      "total": 29
+    },
+    {
+      "category": "Morpho-geographic",
+      "language": "Sasak/Balinese",
+      "total": 1
+    },
+    {
+      "category": "Morpho-geographic",
+      "language": "Sasak/Indonesian",
+      "total": 3
+    },
+    {
+      "category": "Morpho-geographic",
+      "language": "Sasak/Sanskrit",
+      "total": 1
+    }
+  ]
+}
