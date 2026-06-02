@@ -9,41 +9,35 @@ export const useTourismData = () => {
 
   useEffect(() => {
     try {
-      // geoDataRaw otomatis di-parse sebagai objek JSON oleh Vite
       const jsonData = geoDataRaw as unknown as GeoJSONData;
 
       const cleanedData: TourismData[] = jsonData.features
         .filter((feature) => feature.geometry.type === "Point")
         .map((feature) => {
           const { properties, geometry } = feature;
+          const nama = String(
+            properties.Nama_Lokasi ||
+              properties.Nama ||
+              properties.Name ||
+              "Tanpa Nama",
+          );
+          const deskripsi = String(
+            properties.Deskripsi ||
+              properties.Jenis_Wisata ||
+              properties.Description ||
+              "",
+          );
+          const kategoriRaw = String(
+            properties.Kategori || properties.Jenis_Wisata || "Lainnya",
+          );
+
           return {
-            Nama: String(
-              properties.Nama_Lokasi ||
-                properties.Nama ||
-                properties.Name ||
-                "Tanpa Nama",
-            ),
+            Nama: nama,
             Longitude: geometry.coordinates[0],
             Latitude: geometry.coordinates[1],
-            Deskripsi: String(
-              properties.Deskripsi ||
-                properties.Jenis_Wisata ||
-                properties.Description ||
-                "",
-            ),
-            Kategori: getKategoriBaru(
-              String(
-                properties.Jenis_Wisata || properties.Kategori || "Lainnya",
-              ),
-            ),
-            Gambar: getGambar(
-              String(
-                properties.Nama_Lokasi ||
-                  properties.Nama ||
-                  properties.Name ||
-                  "Tanpa Nama",
-              ),
-            ),
+            Deskripsi: deskripsi,
+            Kategori: normalizeCategory(kategoriRaw),
+            Gambar: getGambar(nama),
           };
         });
       setData(cleanedData);
@@ -61,10 +55,10 @@ export const useTourismData = () => {
   const categories = useMemo(
     () => [
       "Semua",
-      "Admin-Commemorative",
-      "Descriptive-Natural",
-      "Ethno-Cultural",
-      "Morpho-Geographic",
+      "Admin-commemorative",
+      "Descriptive-natural",
+      "Ethno-cultural",
+      "Morpho-geographic",
     ],
     [],
   );
@@ -72,73 +66,19 @@ export const useTourismData = () => {
   return { data, categories, loading, error };
 };
 
-const getKategoriBaru = (jenis: string): string => {
-  const j = jenis.toLowerCase();
-
-  if (j.includes("morpho")) return "Morpho-Geographic";
-  if (j.includes("ethno")) return "Ethno-Cultural";
-  if (j.includes("descriptive")) return "Descriptive-Natural";
-  if (j.includes("admin")) return "Admin-Commemorative";
-
-  if (
-    j.includes("bukit") ||
-    j.includes("gunung") ||
-    j.includes("savana") ||
-    j.includes("goa") ||
-    j.includes("puncak") ||
-    j.includes("batu") ||
-    j.includes("panorama")
-  ) {
-    return "Morpho-Geographic";
-  }
-
-  if (
-    j.includes("desa") ||
-    j.includes("budaya") ||
-    j.includes("edukasi") ||
-    j.includes("kuliner") ||
-    j.includes("makan") ||
-    j.includes("kampung") ||
-    j.includes("agro") ||
-    j.includes("sejarah")
-  ) {
-    return "Ethno-Cultural";
-  }
-
-  if (
-    j.includes("pantai") ||
-    j.includes("air terjun") ||
-    j.includes("danau") ||
-    j.includes("telaga") ||
-    j.includes("hutan") ||
-    j.includes("alam") ||
-    j.includes("pemandian") ||
-    j.includes("kolam") ||
-    j.includes("curug") ||
-    j.includes("tibu")
-  ) {
-    return "Descriptive-Natural";
-  }
-
-  if (
-    j.includes("taman") ||
-    j.includes("rekreasi") ||
-    j.includes("wahana") ||
-    j.includes("water") ||
-    j.includes("pusat") ||
-    j.includes("area") ||
-    j.includes("bendungan") ||
-    j.includes("studio")
-  ) {
-    return "Admin-Commemorative";
-  }
-
-  return "Descriptive-Natural"; // Default
+const normalizeCategory = (kategori: string): string => {
+  const k = kategori.toLowerCase();
+  if (k.includes("admin")) return "Admin-commemorative";
+  if (k.includes("descriptive")) return "Descriptive-natural";
+  if (k.includes("ethno")) return "Ethno-cultural";
+  if (k.includes("morpho")) return "Morpho-geographic";
+  return "Morpho-geographic"; // Default fallback
 };
 
 const getGambar = (nama: string) => {
   const mapping: { [key: string]: string } = {
     "Wisata Alam Aiknyet": "aik_nyet.png",
+    "Aik Nyet": "aik_nyet.png",
     "Air Terjun Timponan": "airterjun_timponan.png",
     "Wisata Bunut Ngengkang": "bunut_ngengkang.png",
     "Wisata Alam Batu Gendang": "bukit_batu_gendnag.png",

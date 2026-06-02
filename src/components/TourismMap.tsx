@@ -19,8 +19,10 @@ import {
   X,
   Info,
   Navigation,
-  Map as MapIcon,
   Copy,
+  Check,
+  Plus,
+  Minus,
 } from "lucide-react";
 
 // Fix for default marker icon
@@ -39,28 +41,27 @@ const DefaultIcon = L.icon({
   shadowSize: [41, 41],
 });
 
+const LEGEND_DATA = [
+  { label: "Morpho-geographic", color: "#10b981" }, // Hijau
+  { label: "Admin-commemorative", color: "#3b82f6" }, // Biru
+  { label: "Ethno-cultural", color: "#ec4899" }, // Merah Muda
+  { label: "Descriptive-natural", color: "#b45309" }, // Cokelat
+];
+
 const getCategoryColor = (cat: string) => {
-  switch (cat) {
-    case "Admin-Commemorative":
-      return "#2563eb"; // Blue 600
-    case "Descriptive-Natural":
-      return "#059669"; // Emerald 600
-    case "Ethno-Cultural":
-      return "#d97706"; // Amber 600
-    case "Morpho-Geographic":
-      return "#334155"; // Slate 700
-    default:
-      return "#64748b"; // Slate 500
-  }
+  const item = LEGEND_DATA.find(
+    (i) => i.label.toLowerCase() === cat.toLowerCase(),
+  );
+  return item ? item.color : "#64748b";
 };
 
-const createCustomIcon = (cat: string) => {
+const createCustomIcon = (cat: string, isSelected: boolean) => {
   const color = getCategoryColor(cat);
   return L.divIcon({
     className: "custom-div-icon",
-    html: `<div style="background-color: ${color}; width: 24px; height: 24px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 2px solid white; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);"></div>`,
-    iconSize: [24, 24],
-    iconAnchor: [12, 24],
+    html: `<div style="background-color: ${color}; width: ${isSelected ? "30px" : "24px"}; height: ${isSelected ? "30px" : "24px"}; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 2px solid white; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); transition: all 0.3s ease;"></div>`,
+    iconSize: isSelected ? [30, 30] : [24, 24],
+    iconAnchor: isSelected ? [15, 30] : [12, 24],
     popupAnchor: [0, -24],
     tooltipAnchor: [12, -12],
   });
@@ -91,7 +92,10 @@ const SidebarItem = memo(({ item, handleZoomTo }: any) => (
         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
         decoding="async"
       />
-      <div className="absolute top-1 left-1 bg-white/90 text-[6px] font-black uppercase px-1 py-0.5 rounded-md text-emerald-600 border border-white/20">
+      <div
+        className="absolute top-1 left-1 bg-white/90 text-[6px] font-black uppercase px-1 py-0.5 rounded-md border border-white/20"
+        style={{ color: getCategoryColor(item.Kategori) }}
+      >
         {item.Kategori}
       </div>
     </div>
@@ -107,7 +111,7 @@ const SidebarItem = memo(({ item, handleZoomTo }: any) => (
 ));
 
 const TourismMap = () => {
-  const { data, categories, loading } = useTourismData();
+  const { data, loading } = useTourismData();
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Semua");
   const [showLabelsAlways, setShowLabelsAlways] = useState(false);
@@ -148,7 +152,8 @@ const TourismMap = () => {
     const term = searchTerm.toLowerCase();
     return data.filter((item) => {
       const matchCat =
-        selectedCategory === "Semua" || item.Kategori === selectedCategory;
+        selectedCategory === "Semua" ||
+        item.Kategori.toLowerCase() === selectedCategory.toLowerCase();
       const matchSearch =
         item.Nama.toLowerCase().includes(term) ||
         item.Deskripsi.toLowerCase().includes(term);
@@ -190,10 +195,10 @@ const TourismMap = () => {
             style={{ width: `${sidebarWidth}px` }}
             className="fixed md:relative flex flex-col h-[calc(100vh-140px)] md:h-full bg-white border-r border-emerald-50 shadow-2xl z-[2001] min-w-[280px] top-[70px] md:top-0"
           >
-            <div className="p-3 pb-1">
-              <div className="flex items-center justify-between mb-2">
+            <div className="p-4 border-b border-slate-50">
+              <div className="flex items-center justify-between mb-4">
                 <h2 className="text-[10px] font-black text-slate-900 italic uppercase tracking-widest">
-                  Eksplorasi
+                  Pencarian Destinasi
                 </h2>
                 <button
                   onClick={() => setSidebarOpen(false)}
@@ -203,52 +208,41 @@ const TourismMap = () => {
                 </button>
               </div>
 
-              <div className="relative mb-2">
+              <div className="relative">
                 <Search
-                  className="absolute left-3 top-1/2 -translate-y-1/2 text-emerald-300"
-                  size={14}
+                  className="absolute left-3 top-1/2 -translate-y-1/2 text-emerald-400"
+                  size={16}
                 />
                 <input
                   type="text"
-                  placeholder="Cari..."
-                  className="w-full pl-9 pr-3 py-1.5 bg-emerald-50/50 border-none rounded-lg text-[11px] font-medium focus:ring-1 focus:ring-emerald-500/20 outline-none"
+                  placeholder="Cari lokasi wisata..."
+                  className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-100 rounded-2xl text-[12px] font-bold focus:ring-1 focus:ring-emerald-500/20 outline-none transition-all"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
               </div>
-
-              <div className="flex items-center gap-1 pb-1 overflow-x-auto no-scrollbar">
-                {categories.map((cat) => (
-                  <button
-                    key={cat}
-                    onClick={() => setSelectedCategory(cat)}
-                    className={`whitespace-nowrap px-3 py-1.5 rounded-xl text-[9px] font-black uppercase transition-all flex items-center gap-2
-                      ${selectedCategory === cat ? "bg-slate-900 text-white shadow-xl" : "bg-white border border-slate-100 text-slate-400 hover:border-emerald-100"}`}
-                  >
-                    {cat !== "Semua" && (
-                      <div
-                        className="w-2 h-2 rounded-full"
-                        style={{ backgroundColor: getCategoryColor(cat) }}
-                      />
-                    )}
-                    {cat}
-                  </button>
-                ))}
-              </div>
             </div>
 
-            <div className="flex-grow overflow-y-auto px-4 py-2 pb-20 space-y-3 custom-scrollbar select-text">
+            <div className="flex-grow overflow-y-auto px-4 py-4 pb-20 space-y-3 custom-scrollbar select-text bg-white">
+              <div className="flex items-center justify-between px-1 mb-2">
+                <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">
+                  Hasil: {filteredData.length} Destinasi
+                </span>
+                {selectedCategory !== "Semua" && (
+                  <span className="text-[9px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full uppercase tracking-tighter">
+                    Filter: {selectedCategory}
+                  </span>
+                )}
+              </div>
               {filteredData.map((item, index) => (
                 <SidebarItem
                   key={`${item.Nama}-${index}`}
                   item={item}
-                  index={index}
                   handleZoomTo={handleZoomTo}
                 />
               ))}
             </div>
 
-            {/* Resize Handle */}
             <div
               onMouseDown={() => setIsResizing(true)}
               className="absolute top-0 right-0 w-1.5 h-full cursor-col-resize hover:bg-emerald-500/20 active:bg-emerald-500/40 transition-colors z-[2002]"
@@ -261,7 +255,7 @@ const TourismMap = () => {
         {!sidebarOpen && (
           <button
             onClick={() => setSidebarOpen(true)}
-            className="absolute top-6 left-6 z-[2000] bg-white p-4 rounded-3xl shadow-2xl border border-slate-100 active:scale-90 transition-all"
+            className="absolute top-6 left-6 z-[2000] bg-white p-4 rounded-3xl shadow-2xl border border-slate-100 active:scale-90 transition-all text-emerald-600"
           >
             <Menu size={24} />
           </button>
@@ -275,26 +269,120 @@ const TourismMap = () => {
           attributionControl={false}
         >
           <ChangeView center={mapConfig.center} zoom={mapConfig.zoom} />
+
           <LayersControl position="topright">
-            <LayersControl.BaseLayer checked name="Peta Berwarna">
-              <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <LayersControl.BaseLayer checked name="Peta Minimalis">
+              <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
             </LayersControl.BaseLayer>
             <LayersControl.BaseLayer name="Satelit">
               <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" />
             </LayersControl.BaseLayer>
-            <LayersControl.BaseLayer name="Peta Modern (Minimalis)">
-              <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
-            </LayersControl.BaseLayer>
-            <LayersControl.BaseLayer name="Peta Terang (Voyager)">
-              <TileLayer url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" />
+            <LayersControl.BaseLayer name="Peta Jalan">
+              <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             </LayersControl.BaseLayer>
           </LayersControl>
+
+          {/* Legenda Peta sebagai Filter (Dipindah ke Kiri Atas agar tidak tertabrak zoom) */}
+          <div className="absolute top-6 left-6 z-[1000] max-w-[220px] pointer-events-auto">
+            {!sidebarOpen && <div className="h-20" />}{" "}
+            {/* Jarak jika sidebar tertutup agar tidak tertutup tombol menu */}
+            <div className="bg-white/95 backdrop-blur-md p-3 rounded-[20px] shadow-xl border border-white/50 space-y-2.5">
+              <div className="flex items-center gap-4 px-1">
+                <h3 className="text-[9px] font-black uppercase tracking-[0.2em] text-slate-400">
+                  Legenda
+                </h3>
+                {selectedCategory !== "Semua" && (
+                  <button
+                    onClick={() => setSelectedCategory("Semua")}
+                    className="text-[8px] font-black text-emerald-600 uppercase hover:underline"
+                  >
+                    Reset
+                  </button>
+                )}
+              </div>
+
+              <div className="space-y-1">
+                <button
+                  onClick={() => setSelectedCategory("Semua")}
+                  className={`w-full flex items-center gap-3 px-2.5 py-1.5 rounded-xl transition-all group ${selectedCategory === "Semua" ? "bg-slate-900 text-white shadow-lg" : "hover:bg-slate-50 text-slate-600"}`}
+                >
+                  <div
+                    className={`w-1.5 h-1.5 rounded-full ${selectedCategory === "Semua" ? "bg-emerald-400" : "bg-slate-300"}`}
+                  />
+                  <span className="text-[10px] font-black uppercase tracking-tight">
+                    Semua
+                  </span>
+                </button>
+
+                {LEGEND_DATA.map((item) => {
+                  const isActive =
+                    selectedCategory.toLowerCase() === item.label.toLowerCase();
+                  return (
+                    <button
+                      key={item.label}
+                      onClick={() =>
+                        setSelectedCategory(isActive ? "Semua" : item.label)
+                      }
+                      className={`w-full flex items-center gap-3 px-2.5 py-1.5 rounded-xl transition-all group ${isActive ? "bg-white border shadow-sm" : "hover:bg-slate-50 text-slate-600"}`}
+                      style={
+                        isActive
+                          ? { borderColor: item.color, color: item.color }
+                          : {}
+                      }
+                    >
+                      <div
+                        className="w-2 h-2 rounded-full shadow-sm"
+                        style={{ backgroundColor: item.color }}
+                      />
+                      <span className="text-[10px] font-black uppercase tracking-tight">
+                        {item.label}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          {/* Tombol Zoom & Toggle (Tetap di Kanan Bawah, tapi diberi jarak yang aman) */}
+          <div className="absolute bottom-10 right-10 z-[1000] flex flex-col gap-3">
+            <div className="flex flex-col bg-white rounded-[24px] shadow-2xl border border-slate-100 p-1">
+              <button
+                onClick={() =>
+                  setMapConfig((prev) => ({ ...prev, zoom: prev.zoom + 1 }))
+                }
+                className="w-12 h-12 hover:bg-slate-50 text-slate-600 flex items-center justify-center rounded-[20px] transition-all"
+              >
+                <Plus size={20} />
+              </button>
+              <div className="h-px bg-slate-100 mx-2" />
+              <button
+                onClick={() =>
+                  setMapConfig((prev) => ({ ...prev, zoom: prev.zoom - 1 }))
+                }
+                className="w-12 h-12 hover:bg-slate-50 text-slate-600 flex items-center justify-center rounded-[20px] transition-all"
+              >
+                <Minus size={20} />
+              </button>
+            </div>
+
+            <button
+              onClick={() => setShowLabelsAlways(!showLabelsAlways)}
+              title="Toggle Nama Pariwisata"
+              className={`w-14 h-14 rounded-2xl shadow-2xl flex items-center justify-center transition-all border ${showLabelsAlways ? "bg-emerald-600 text-white border-emerald-500 shadow-emerald-200" : "bg-white text-slate-600 border-slate-100 hover:bg-slate-50"}`}
+            >
+              <Settings2 size={24} />
+            </button>
+          </div>
 
           {filteredData.map((item, index) => (
             <Marker
               key={`${item.Nama}-${index}`}
               position={[item.Latitude, item.Longitude]}
-              icon={createCustomIcon(item.Kategori)}
+              icon={createCustomIcon(
+                item.Kategori,
+                selectedCategory.toLowerCase() === item.Kategori.toLowerCase(),
+              )}
             >
               <Tooltip
                 key={`tooltip-${index}-${showLabelsAlways}`}
@@ -368,49 +456,6 @@ const TourismMap = () => {
               </Popup>
             </Marker>
           ))}
-
-          <div className="absolute bottom-10 right-10 z-[1000] flex flex-col gap-4">
-            <div className="flex flex-col bg-white/80 backdrop-blur-2xl rounded-[32px] shadow-2xl border border-white p-2 text-emerald-600">
-              <button
-                onClick={() =>
-                  setMapConfig((prev) => ({ ...prev, zoom: prev.zoom + 1 }))
-                }
-                className="w-14 h-14 hover:bg-white text-slate-900 flex items-center justify-center rounded-3xl transition-all active:scale-90"
-              >
-                <span className="text-3xl font-light">+</span>
-              </button>
-              <button
-                onClick={() =>
-                  setMapConfig((prev) => ({ ...prev, zoom: prev.zoom - 1 }))
-                }
-                className="w-14 h-14 hover:bg-white text-slate-900 flex items-center justify-center rounded-3xl transition-all active:scale-90"
-              >
-                <span className="text-3xl font-light">-</span>
-              </button>
-            </div>
-            <button
-              onClick={() => setShowLabelsAlways(!showLabelsAlways)}
-              className={`w-16 h-16 rounded-full shadow-2xl flex items-center justify-center transition-all active:scale-90 border border-white backdrop-blur-2xl ${showLabelsAlways ? "bg-emerald-600 text-white" : "bg-white/80 text-slate-900 hover:bg-white"}`}
-            >
-              <Settings2 size={24} />
-            </button>
-          </div>
-
-          <div className="absolute bottom-10 left-10 z-[1000] hidden lg:block pointer-events-none">
-            <div className="bg-white/60 backdrop-blur-xl border border-white/40 px-4 py-2 rounded-2xl flex items-center gap-3 shadow-xl">
-              <div className="bg-emerald-900 p-1.5 rounded-xl text-white">
-                <MapIcon size={16} />
-              </div>
-              <div>
-                <h1 className="text-xs font-black text-slate-900 leading-none uppercase">
-                  Lombok Barat
-                </h1>
-                <p className="text-emerald-700 text-[7px] font-black uppercase tracking-[0.2em] mt-0.5">
-                  Nature & Culture
-                </p>
-              </div>
-            </div>
-          </div>
         </MapContainer>
       </div>
     </div>

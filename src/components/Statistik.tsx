@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import {
   BarChart,
   Bar,
@@ -8,251 +8,275 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
-  PieChart,
-  Pie,
-  Cell,
 } from "recharts";
-import { TrendingUp } from "lucide-react";
+import { TrendingUp, Table as TableIcon, LayoutDashboard } from "lucide-react";
+import geoDataRaw from "../assets/data/data_pariwisata.json";
+import statsDataRaw from "../../public/tourism_stats.json";
+import type { GeoJSONData } from "../types";
 
-interface LanguageStat {
-  language: string;
-  total: number;
-}
-
-interface CategoryBreakdown {
-  category: string;
-  language: string;
-  total: number;
-}
-
-interface StatsData {
-  languageDistribution: LanguageStat[];
-  categoryLanguageBreakdown: CategoryBreakdown[];
-}
-
-const COLORS = [
-  "#10b981",
-  "#3b82f6",
-  "#f59e0b",
-  "#ef4444",
-  "#8b5cf6",
-  "#ec4899",
-  "#06b6d4",
-  "#84cc16",
-  "#f97316",
-  "#6366f1",
-];
+const CATEGORY_COLORS: { [key: string]: string } = {
+  "Morpho-geographic": "#10b981", // Hijau
+  "Admin-commemorative": "#3b82f6", // Biru
+  "Ethno-cultural": "#ec4899", // Merah Muda
+  "Descriptive-natural": "#b45309", // Cokelat/Oranye
+};
 
 const Statistik: React.FC = () => {
-  const [stats, setStats] = useState<StatsData | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  const [activeTab, setActiveTab] = useState<"dashboard" | "table">(
+    "dashboard",
+  );
 
-  useEffect(() => {
-    fetch("/tourism_stats.json")
-      .then((res) => {
-        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
-        return res.json();
-      })
-      .then((data) => setStats(data))
-      .catch((err) => {
-        console.error("Failed to fetch stats:", err);
-        setError(err.message);
-      });
+  // 1. Olah data untuk Stacked Bar Chart (per Kecamatan)
+  const chartData = useMemo(() => {
+    const geoData = geoDataRaw as unknown as GeoJSONData;
+    const districtMap: { [key: string]: any } = {};
+
+    geoData.features.forEach((feature) => {
+      const location = feature.properties.Lokasi_Detail || "";
+      const district = location.split(",").pop()?.trim() || "Lainnya";
+      const category = feature.properties.Kategori || "Lainnya";
+
+      if (!districtMap[district]) {
+        districtMap[district] = {
+          name: district,
+          "Morpho-geographic": 0,
+          "Admin-commemorative": 0,
+          "Ethno-cultural": 0,
+          "Descriptive-natural": 0,
+          total: 0,
+        };
+      }
+      if (CATEGORY_COLORS[category]) {
+        districtMap[district][category]++;
+        districtMap[district].total++;
+      }
+    });
+
+    return Object.values(districtMap).sort((a, b) => b.total - a.total);
   }, []);
 
-  if (error)
-    return (
-      <div className="p-8 text-center text-red-600 font-bold">
-        Error: {error}
-      </div>
-    );
-  if (!stats)
-    return (
-      <div className="p-8 text-center font-bold text-slate-400">
-        Loading statistics...
-      </div>
-    );
+  // 2. Data untuk Tabel Tabulasi (Asal Bahasa)
+  const tableData = useMemo(() => {
+    return statsDataRaw.categoryLanguageBreakdown;
+  }, []);
 
-  // Simple Data Processing
-  const totalDestinations = stats.languageDistribution.reduce(
-    (acc, curr) => acc + curr.total,
-    0,
-  );
-  const sortedLanguages = [...stats.languageDistribution].sort(
-    (a, b) => b.total - a.total,
-  );
-  const categories = Array.from(
-    new Set(stats.categoryLanguageBreakdown.map((d) => d.category)),
-  );
+  const languageGroups = [
+    "Sasak",
+    "Sasak/Indonesian",
+    "Indonesian",
+    "Sanskrit",
+    "Lainnya",
+  ];
+
+  const getTabulationData = () => {
+    const categories = Object.keys(CATEGORY_COLORS);
+    return categories.map((cat) => {
+      const row: any = { category: cat, total: 0 };
+      languageGroups.forEach((lang) => (row[lang] = 0));
+
+      tableData.forEach((item) => {
+        if (item.category.toLowerCase() === cat.toLowerCase()) {
+          const lang = item.language;
+          if (languageGroups.includes(lang)) {
+            row[lang] += item.total;
+          } else {
+            row["Lainnya"] += item.total;
+          }
+          row.total += item.total;
+        }
+      });
+      return row;
+    });
+  };
+
+  const tabulation = getTabulationData();
 
   return (
-    <div className="h-full overflow-y-auto bg-slate-50 pt-8 pb-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+    <div className="h-full overflow-y-auto bg-slate-50 pb-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Header */}
-        <div className="mb-10 text-center md:text-left">
-          <h1 className="text-3xl font-black text-slate-900 uppercase tracking-tighter flex items-center gap-3">
-            <div className="p-2 bg-emerald-600 rounded-xl text-white shadow-lg shadow-emerald-200">
-              <TrendingUp size={28} />
-            </div>
-            Statistik Semiotik
-          </h1>
-          <p className="mt-2 text-slate-500 font-medium">
-            Analisis Toponimi Destinasi Wisata Lombok Barat
-          </p>
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-10">
+          <div>
+            <h1 className="text-3xl font-black text-slate-900 uppercase tracking-tighter flex items-center gap-3">
+              <div className="p-2 bg-emerald-600 rounded-xl text-white shadow-lg shadow-emerald-200">
+                <TrendingUp size={28} />
+              </div>
+              Analisis Toponim
+            </h1>
+            <p className="mt-2 text-slate-500 font-medium">
+              Distribusi Spasial & Linguistik Nama Geografis Lombok Barat
+            </p>
+          </div>
+
+          <div className="flex bg-white p-1 rounded-2xl shadow-sm border border-slate-100">
+            <button
+              onClick={() => setActiveTab("dashboard")}
+              className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-xs font-black uppercase tracking-widest transition-all ${
+                activeTab === "dashboard"
+                  ? "bg-slate-900 text-white shadow-lg"
+                  : "text-slate-400 hover:text-slate-600"
+              }`}
+            >
+              <LayoutDashboard size={16} />
+              Dashboard
+            </button>
+            <button
+              onClick={() => setActiveTab("table")}
+              className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-xs font-black uppercase tracking-widest transition-all ${
+                activeTab === "table"
+                  ? "bg-slate-900 text-white shadow-lg"
+                  : "text-slate-400 hover:text-slate-600"
+              }`}
+            >
+              <TableIcon size={16} />
+              Tabel
+            </button>
+          </div>
         </div>
 
-        {/* Summary */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
-          <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
-            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1">
-              Total Destinasi
-            </p>
-            <p className="text-3xl font-black text-slate-900">
-              {totalDestinations}
-            </p>
-          </div>
-          <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
-            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1">
-              Bahasa Terbanyak
-            </p>
-            <p className="text-3xl font-black text-slate-900">Sasak</p>
-          </div>
-          <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
-            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1">
-              Kategori Utama
-            </p>
-            <p className="text-xl font-black text-slate-900 leading-tight">
-              Morpho-Geographic
-            </p>
-          </div>
-        </div>
-
-        {/* Charts */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-10">
-          <div className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm min-h-[400px]">
-            <h2 className="text-sm font-black text-slate-900 uppercase tracking-widest mb-6">
-              Sebaran Bahasa
-            </h2>
-            <div className="h-[300px]">
-              <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={sortedLanguages.slice(0, 8)} layout="vertical">
-                  <CartesianGrid
-                    strokeDasharray="3 3"
-                    horizontal={false}
-                    stroke="#f1f5f9"
+        {activeTab === "dashboard" ? (
+          <div className="space-y-8">
+            {/* Legend */}
+            <div className="flex flex-wrap gap-6 bg-white p-6 rounded-3xl border border-slate-100 shadow-sm">
+              {Object.entries(CATEGORY_COLORS).map(([name, color]) => (
+                <div key={name} className="flex items-center gap-3">
+                  <div
+                    className="w-4 h-4 rounded-full"
+                    style={{ backgroundColor: color }}
                   />
-                  <XAxis type="number" hide />
-                  <YAxis
-                    dataKey="language"
-                    type="category"
-                    width={100}
-                    tick={{ fontSize: 10, fontWeight: 700 }}
-                  />
-                  <Tooltip
-                    cursor={{ fill: "#f8fafc" }}
-                    contentStyle={{
-                      borderRadius: "12px",
-                      border: "none",
-                      boxShadow: "0 10px 15px -3px rgba(0,0,0,0.1)",
-                    }}
-                  />
-                  <Bar
-                    dataKey="total"
-                    fill="#10b981"
-                    radius={[0, 4, 4, 0]}
-                    isAnimationActive={false}
-                  />
-                </BarChart>
-              </ResponsiveContainer>
+                  <span className="text-[10px] font-black text-slate-600 uppercase tracking-wider">
+                    {name}
+                  </span>
+                </div>
+              ))}
             </div>
-          </div>
 
-          <div className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm min-h-[400px]">
-            <h2 className="text-sm font-black text-slate-900 uppercase tracking-widest mb-6">
-              Proporsi Utama
-            </h2>
-            <div className="h-[300px]">
-              <ResponsiveContainer width="100%" height="100%">
-                <PieChart>
-                  <Pie
-                    data={sortedLanguages.slice(0, 5)}
-                    cx="50%"
-                    cy="50%"
-                    innerRadius={60}
-                    outerRadius={90}
-                    paddingAngle={5}
-                    dataKey="total"
-                    nameKey="language"
-                    isAnimationActive={false}
+            {/* Main Chart */}
+            <div className="bg-white p-8 rounded-[40px] border border-slate-100 shadow-sm">
+              <h2 className="text-sm font-black text-slate-900 uppercase tracking-[0.2em] mb-10">
+                Toponym Distribution by Sub-District
+              </h2>
+              <div className="h-[600px] w-full">
+                <ResponsiveContainer width="100%" height="100%">
+                  <BarChart
+                    data={chartData}
+                    layout="vertical"
+                    margin={{ left: 40, right: 40 }}
                   >
-                    {sortedLanguages.slice(0, 5).map((_, index) => (
-                      <Cell
-                        key={`cell-${index}`}
-                        fill={COLORS[index % COLORS.length]}
-                        stroke="none"
+                    <CartesianGrid
+                      strokeDasharray="3 3"
+                      horizontal={false}
+                      stroke="#f1f5f9"
+                    />
+                    <XAxis type="number" hide />
+                    <YAxis
+                      dataKey="name"
+                      type="category"
+                      width={120}
+                      tick={{ fontSize: 11, fontWeight: 800, fill: "#1e293b" }}
+                      axisLine={false}
+                      tickLine={false}
+                    />
+                    <Tooltip
+                      cursor={{ fill: "#f8fafc" }}
+                      contentStyle={{
+                        borderRadius: "20px",
+                        border: "none",
+                        boxShadow: "0 20px 25px -5px rgba(0,0,0,0.1)",
+                      }}
+                    />
+                    {Object.entries(CATEGORY_COLORS).map(([name, color]) => (
+                      <Bar
+                        key={name}
+                        dataKey={name}
+                        stackId="a"
+                        fill={color}
+                        radius={0}
+                        barSize={32}
                       />
                     ))}
-                  </Pie>
-
-                  <Tooltip
-                    contentStyle={{
-                      borderRadius: "12px",
-                      border: "none",
-                      boxShadow: "0 10px 15px -3px rgba(0,0,0,0.1)",
-                    }}
-                  />
-                  <Legend />
-                </PieChart>
-              </ResponsiveContainer>
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
             </div>
           </div>
-        </div>
-
-        <h2 className="text-sm font-black text-slate-900 uppercase tracking-widest mb-6">
-          Detail per Kategori
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {categories.map((cat) => {
-            const catData = stats.categoryLanguageBreakdown.filter(
-              (d) => d.category === cat,
-            );
-            const total = catData.reduce((acc, curr) => acc + curr.total, 0);
-            return (
-              <div
-                key={cat}
-                className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm"
-              >
-                <h3 className="font-black text-slate-900 uppercase text-xs mb-4">
-                  {cat} ({total} Lokasi)
-                </h3>
-                <div className="space-y-2">
-                  {catData
-                    .sort((a, b) => b.total - a.total)
-                    .slice(0, 4)
-                    .map((item) => (
-                      <div
-                        key={item.language}
-                        className="flex items-center gap-3"
+        ) : (
+          <div className="bg-white rounded-[40px] border border-slate-100 shadow-sm overflow-hidden">
+            <div className="p-8 border-b border-slate-50">
+              <h2 className="text-sm font-black text-slate-900 uppercase tracking-[0.2em]">
+                Tabulation of Toponym Category by Language Origin
+              </h2>
+            </div>
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse">
+                <thead>
+                  <tr className="bg-slate-900 text-white">
+                    <th className="px-8 py-5 text-[10px] font-black uppercase tracking-widest">
+                      Category
+                    </th>
+                    {languageGroups.map((lang) => (
+                      <th
+                        key={lang}
+                        className="px-8 py-5 text-[10px] font-black uppercase tracking-widest"
                       >
-                        <div className="flex-grow bg-slate-100 rounded-full h-2 overflow-hidden">
-                          <div
-                            className="bg-emerald-500 h-full"
-                            style={{ width: `${(item.total / total) * 100}%` }}
-                          ></div>
-                        </div>
-                        <span className="text-[10px] font-bold text-slate-500 w-24 truncate">
-                          {item.language}
-                        </span>
-                        <span className="text-[10px] font-black text-slate-900 w-8 text-right">
-                          {item.total}
-                        </span>
-                      </div>
+                        {lang}
+                      </th>
                     ))}
-                </div>
-              </div>
-            );
-          })}
-        </div>
+                    <th className="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-emerald-400 text-right">
+                      Total
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-100">
+                  {tabulation.map((row) => (
+                    <tr
+                      key={row.category}
+                      className="hover:bg-slate-50 transition-colors"
+                    >
+                      <td className="px-8 py-5">
+                        <div className="flex items-center gap-3">
+                          <div
+                            className="w-2.5 h-2.5 rounded-full"
+                            style={{
+                              backgroundColor: CATEGORY_COLORS[row.category],
+                            }}
+                          />
+                          <span className="text-[11px] font-bold text-slate-900">
+                            {row.category}
+                          </span>
+                        </div>
+                      </td>
+                      {languageGroups.map((lang) => (
+                        <td
+                          key={lang}
+                          className="px-8 py-5 text-[11px] font-medium text-slate-500"
+                        >
+                          {row[lang]}
+                        </td>
+                      ))}
+                      <td className="px-8 py-5 text-right font-black text-slate-900 text-xs">
+                        {row.total}
+                      </td>
+                    </tr>
+                  ))}
+                  <tr className="bg-slate-50 font-black">
+                    <td className="px-8 py-5 text-[10px] uppercase tracking-widest">
+                      Total Overall
+                    </td>
+                    {languageGroups.map((lang) => (
+                      <td key={lang} className="px-8 py-5 text-xs">
+                        {tabulation.reduce((acc, curr) => acc + curr[lang], 0)}
+                      </td>
+                    ))}
+                    <td className="px-8 py-5 text-right text-emerald-600 text-sm">
+                      {tabulation.reduce((acc, curr) => acc + curr.total, 0)}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
