@@ -1,19 +1,10 @@
-import { useState, useEffect, lazy, Suspense } from "react";
-import { Map as MapIcon, Loader2, Sun, Clock } from "lucide-react";
+import { useState, useEffect } from "react";
+import { Map as MapIcon, Sun, Clock } from "lucide-react";
 
-const TourismMap = lazy(() => import("./components/TourismMap"));
-const Destinasi = lazy(() => import("./components/Destinasi"));
-const Statistik = lazy(() => import("./components/Statistik"));
-const TentangKami = lazy(() => import("./components/TentangKami"));
-
-const LoadingPage = () => (
-  <div className="flex flex-col items-center justify-center h-full bg-slate-50 text-emerald-600">
-    <Loader2 className="w-10 h-10 animate-spin mb-4" />
-    <p className="font-black uppercase tracking-widest text-xs">
-      Menyiapkan Halaman...
-    </p>
-  </div>
-);
+import TourismMap from "./components/TourismMap";
+import Destinasi from "./components/Destinasi";
+import Statistik from "./components/Statistik";
+import TentangKami from "./components/TentangKami";
 
 function App() {
   const [activePage, setActivePage] = useState("eksplorasi");
@@ -25,14 +16,18 @@ function App() {
   }, []);
 
   const renderPage = () => {
-    return (
-      <Suspense fallback={<LoadingPage />}>
-        {activePage === "eksplorasi" && <TourismMap />}
-        {activePage === "destinasi" && <Destinasi />}
-        {activePage === "statistik" && <Statistik />}
-        {activePage === "tentang-kami" && <TentangKami />}
-      </Suspense>
-    );
+    switch (activePage) {
+      case "eksplorasi":
+        return <TourismMap />;
+      case "destinasi":
+        return <Destinasi />;
+      case "statistik":
+        return <Statistik />;
+      case "tentang-kami":
+        return <TentangKami />;
+      default:
+        return <TourismMap />;
+    }
   };
 
   return (
