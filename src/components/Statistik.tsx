@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import {
   BarChart,
   Bar,
@@ -6,7 +6,6 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
 } from "recharts";
 import { TrendingUp, Table as TableIcon, LayoutDashboard } from "lucide-react";
@@ -32,9 +31,9 @@ const Statistik: React.FC = () => {
     const districtMap: { [key: string]: any } = {};
 
     geoData.features.forEach((feature) => {
-      const location = feature.properties.Lokasi_Detail || "";
+      const location = String(feature.properties.Lokasi_Detail || "");
       const district = location.split(",").pop()?.trim() || "Lainnya";
-      const category = feature.properties.Kategori || "Lainnya";
+      const category = String(feature.properties.Kategori || "Lainnya");
 
       if (!districtMap[district]) {
         districtMap[district] = {
@@ -46,7 +45,8 @@ const Statistik: React.FC = () => {
           total: 0,
         };
       }
-      if (CATEGORY_COLORS[category]) {
+
+      if (category in CATEGORY_COLORS) {
         districtMap[district][category]++;
         districtMap[district].total++;
       }
