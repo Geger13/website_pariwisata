@@ -20,7 +20,6 @@ import {
   Info,
   Navigation,
   Copy,
-  Check,
   Plus,
   Minus,
 } from "lucide-react";
