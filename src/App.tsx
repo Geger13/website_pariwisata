@@ -23,13 +23,20 @@ function App() {
       case "destinasi":
         return <Destinasi lang={lang} />;
       case "statistik":
-        return <Statistik />;
+        return <Statistik lang={lang} />;
       case "tentang-kami":
-        return <TentangKami />;
+        return <TentangKami lang={lang} />;
       default:
         return <TourismMap lang={lang} />;
     }
   };
+
+  const navItems = [
+    { id: "eksplorasi", label: lang === "ID" ? "Eksplorasi" : "Explore" },
+    { id: "destinasi", label: lang === "ID" ? "Destinasi" : "Destinations" },
+    { id: "statistik", label: lang === "ID" ? "Statistik" : "Statistics" },
+    { id: "tentang-kami", label: lang === "ID" ? "Tentang Kami" : "About Us" },
+  ];
 
   return (
     <div className="flex flex-col h-screen bg-white">
@@ -93,21 +100,19 @@ function App() {
         </div>
 
         <nav className="flex items-center gap-6 md:gap-8 text-[10px] md:text-xs font-black uppercase tracking-widest text-slate-400 overflow-x-auto no-scrollbar whitespace-nowrap pb-1 md:pb-0">
-          {["eksplorasi", "destinasi", "statistik", "tentang-kami"].map(
-            (page) => (
-              <button
-                key={page}
-                onClick={() => setActivePage(page)}
-                className={`hover:text-emerald-600 transition-all relative py-1 capitalize flex-shrink-0 ${
-                  activePage === page
-                    ? "text-emerald-600 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-emerald-600 after:rounded-full"
-                    : ""
-                }`}
-              >
-                {page.replace("-", " ")}
-              </button>
-            ),
-          )}
+          {navItems.map((item) => (
+            <button
+              key={item.id}
+              onClick={() => setActivePage(item.id)}
+              className={`hover:text-emerald-600 transition-all relative py-1 capitalize flex-shrink-0 ${
+                activePage === item.id
+                  ? "text-emerald-600 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-emerald-600 after:rounded-full"
+                  : ""
+              }`}
+            >
+              {item.label}
+            </button>
+          ))}
         </nav>
       </header>
 

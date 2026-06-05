@@ -20,10 +20,34 @@ const CATEGORY_COLORS: { [key: string]: string } = {
   "Descriptive-natural": "#b45309", // Cokelat/Oranye
 };
 
-const Statistik: React.FC = () => {
+const Statistik = ({ lang = "ID" }: { lang?: "ID" | "EN" }) => {
   const [activeTab, setActiveTab] = useState<"dashboard" | "table">(
     "dashboard",
   );
+
+  const t = {
+    ID: {
+      title: "Analisis Toponim",
+      subtitle: "Distribusi Spasial & Linguistik Nama Geografis Lombok Barat",
+      chartTitle: "Distribusi Toponim per Kecamatan",
+      tableTitle: "Tabulasi Kategori Toponim berdasarkan Asal Bahasa",
+      category: "Kategori",
+      total: "Total",
+      totalOverall: "Total Keseluruhan",
+      others: "Lainnya",
+    },
+    EN: {
+      title: "Toponym Analysis",
+      subtitle:
+        "Spatial & Linguistic Distribution of West Lombok Geographical Names",
+      chartTitle: "Toponym Distribution by Sub-District",
+      tableTitle: "Tabulation of Toponym Category by Language Origin",
+      category: "Category",
+      total: "Total",
+      totalOverall: "Total Overall",
+      others: "Others",
+    },
+  }[lang];
 
   // 1. Olah data untuk Stacked Bar Chart (per Kecamatan)
   const chartData = useMemo(() => {
@@ -101,11 +125,9 @@ const Statistik: React.FC = () => {
               <div className="p-2 bg-emerald-600 rounded-xl text-white shadow-lg shadow-emerald-200">
                 <TrendingUp size={28} />
               </div>
-              Analisis Toponim
+              {t.title}
             </h1>
-            <p className="mt-2 text-slate-500 font-medium">
-              Distribusi Spasial & Linguistik Nama Geografis Lombok Barat
-            </p>
+            <p className="mt-2 text-slate-500 font-medium">{t.subtitle}</p>
           </div>
 
           <div className="flex bg-white p-1 rounded-2xl shadow-sm border border-slate-100">
@@ -129,7 +151,7 @@ const Statistik: React.FC = () => {
               }`}
             >
               <TableIcon size={16} />
-              Tabel
+              {lang === "ID" ? "Tabel" : "Table"}
             </button>
           </div>
         </div>
@@ -154,7 +176,7 @@ const Statistik: React.FC = () => {
             {/* Main Chart */}
             <div className="bg-white p-8 rounded-[40px] border border-slate-100 shadow-sm">
               <h2 className="text-sm font-black text-slate-900 uppercase tracking-[0.2em] mb-10">
-                Toponym Distribution by Sub-District
+                {t.chartTitle}
               </h2>
               <div className="h-[600px] w-full">
                 <ResponsiveContainer width="100%" height="100%">
@@ -204,7 +226,7 @@ const Statistik: React.FC = () => {
           <div className="bg-white rounded-[40px] border border-slate-100 shadow-sm overflow-hidden">
             <div className="p-8 border-b border-slate-50">
               <h2 className="text-sm font-black text-slate-900 uppercase tracking-[0.2em]">
-                Tabulation of Toponym Category by Language Origin
+                {t.tableTitle}
               </h2>
             </div>
             <div className="overflow-x-auto">
@@ -212,18 +234,18 @@ const Statistik: React.FC = () => {
                 <thead>
                   <tr className="bg-slate-900 text-white">
                     <th className="px-8 py-5 text-[10px] font-black uppercase tracking-widest">
-                      Category
+                      {t.category}
                     </th>
-                    {languageGroups.map((lang) => (
+                    {languageGroups.map((langGroup) => (
                       <th
-                        key={lang}
+                        key={langGroup}
                         className="px-8 py-5 text-[10px] font-black uppercase tracking-widest"
                       >
-                        {lang}
+                        {langGroup === "Lainnya" ? t.others : langGroup}
                       </th>
                     ))}
                     <th className="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-emerald-400 text-right">
-                      Total
+                      {t.total}
                     </th>
                   </tr>
                 </thead>
@@ -246,12 +268,12 @@ const Statistik: React.FC = () => {
                           </span>
                         </div>
                       </td>
-                      {languageGroups.map((lang) => (
+                      {languageGroups.map((langGroup) => (
                         <td
-                          key={lang}
+                          key={langGroup}
                           className="px-8 py-5 text-[11px] font-medium text-slate-500"
                         >
-                          {row[lang]}
+                          {row[langGroup]}
                         </td>
                       ))}
                       <td className="px-8 py-5 text-right font-black text-slate-900 text-xs">
@@ -261,11 +283,14 @@ const Statistik: React.FC = () => {
                   ))}
                   <tr className="bg-slate-50 font-black">
                     <td className="px-8 py-5 text-[10px] uppercase tracking-widest">
-                      Total Overall
+                      {t.totalOverall}
                     </td>
-                    {languageGroups.map((lang) => (
-                      <td key={lang} className="px-8 py-5 text-xs">
-                        {tabulation.reduce((acc, curr) => acc + curr[lang], 0)}
+                    {languageGroups.map((langGroup) => (
+                      <td key={langGroup} className="px-8 py-5 text-xs">
+                        {tabulation.reduce(
+                          (acc, curr) => acc + curr[langGroup],
+                          0,
+                        )}
                       </td>
                     ))}
                     <td className="px-8 py-5 text-right text-emerald-600 text-sm">

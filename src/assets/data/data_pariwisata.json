@@ -15,7 +15,7 @@
         "Jenis_Wisata": "Descriptive-natural",
         "Kategori": "Descriptive-natural",
         "Lokasi_Detail": "Sesaot, Narmada",
-        "Deskripsi_ID": "Pemandian alam dengan air jernih dan segar di tengah hutan Sesaot. [Info: Aiq/Aik (Sasak: 'air/sungai') + Nyet (Sasak: nama tanaman lokal, kemungkinan besar Ficus sp. or tumbuhan riparian); nama biotik deskriptif-alami — sungai yang dicirikan oleh tanaman tepi sungai tertentu.]",
+        "Deskripsi_ID": "Pemandian alam dengan air jernih dan segar di tengah hutan Sesaot. [Info: Aiq/Aik (Sasak: 'air/sungai') + Nyet (Sasak: nama tanaman lokal, kemungkinan besar Ficus sp. atau tumbuhan riparian); nama biotik deskriptif-alami — sungai yang dicirikan oleh tanaman tepi sungai tertentu.]",
         "Deskripsi_EN": "A natural swimming spot with crystal clear and fresh mountain spring water in the heart of Sesaot forest. [Additional Info: Aiq/Aik (Sasak: 'water/river') + Nyet (Sasak: local plant name, likely Ficus sp. or riparian herb); descriptive-natural biotic name — the river characterised by a specific bankside plant.]"
       }
     },
@@ -105,7 +105,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Batu Mekar, Lingsar",
-        "Deskripsi_ID": "Pesona air terjun Air Terjun Timponan yang menawarkan keasrian alam dan suasana yang menenangkan. [Info: Air Terjun + Timponan (Sasak: dari timpoan/timboan 'meluap/tumpah'); hidrologis morfo-geografis name describing the cascading character.]",
+        "Deskripsi_ID": "Pesona air terjun Air Terjun Timponan yang menawarkan keasrian alam dan suasana yang menenangkan. [Info: Air Terjun + Timponan (Sasak: dari timpoan/timboan 'meluap/tumpah'); hidrologis morfo-geografis nama menggambarkan terjun/bertingkat karakter.]",
         "Deskripsi_EN": "The charm of Air Terjun Timponan waterfall offering natural beauty and a tranquil atmosphere. [Additional Info: Air Terjun + Timponan (Sasak: from timpoan/timboan 'to overflow/spill over'); morpho-geographic hydrological name describing the cascading character.]"
       }
     },
@@ -159,7 +159,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Sekotong Barat, Sekotong",
-        "Deskripsi_ID": "Destinasi wisata Batu Kijuk yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Batu ('stone/rock') + Kijuk (Sasak: kijang, Muntiacus muntjak); nama morfo-geografis yang merujuk pada batu yang diasosiasikan dengan kijang — boundary between MG and DN; classified MG as the rock (landform) is the penamaan anchor.]",
+        "Deskripsi_ID": "Destinasi wisata Batu Kijuk yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Batu ('batu/batu') + Kijuk (Sasak: kijang, Muntiacus muntjak); nama morfo-geografis yang merujuk pada batu yang diasosiasikan dengan kijang — batas antara MG (Morfo-Geografis) dan DN (Deskriptif-Alami); diklasifikasikan MG (Morfo-Geografis) sebagai batu (bentang alam) is penamaan jangkar.]",
         "Deskripsi_EN": "The Batu Kijuk tourism destination offering its own unique charm in West Lombok. [Additional Info: Batu ('stone/rock') + Kijuk (Sasak: the barking deer, Muntiacus muntjak); morpho-geographic name referencing a rock associated with deer — boundary between MG and DN; classified MG as the rock (landform) is the naming anchor.]"
       }
     },
@@ -177,7 +177,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Giri Sasak, Kuripan",
-        "Deskripsi_ID": "Dari puncak Bukit Ledu, nikmati panorama alam Lombok Barat yang membentang luas dan indah. [Info: Bukit (Melayu: 'bukit') + Ledu (Sasak: kemungkinan dari ledu, sejenis semak berduri or dari 'membersihkan/membuka lahan'); nama bukit morfo-geografis.]",
+        "Deskripsi_ID": "Dari puncak Bukit Ledu, nikmati panorama alam Lombok Barat yang membentang luas dan indah. [Info: Bukit (Melayu: 'bukit') + Ledu (Sasak: kemungkinan dari ledu, sejenis semak berduri atau dari 'membersihkan/membuka lahan'); nama bukit morfo-geografis.]",
         "Deskripsi_EN": "From the peak of Bukit Ledu, enjoy the vast and beautiful natural panorama of West Lombok. [Additional Info: Bukit (Malay: 'hill') + Ledu (Sasak: possibly from ledu, a type of thorny shrub or from 'to clear/open land'); morpho-geographic hill name.]"
       }
     },
@@ -213,7 +213,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Buwun Mas, Sekotong",
-        "Deskripsi_ID": "Dari puncak Bukit Buwun Mas, nikmati panorama alam Lombok Barat yang membentang luas dan indah. [Info: Buwun (Sasak: 'mata air/sumur/sumber air') + Mas (Melayu/BI: 'emas'); hidrologis morfo-geografis name with a colour/value kualifikasi referencing golden mineral-rich water or gold-mining history.]",
+        "Deskripsi_ID": "Dari puncak Bukit Buwun Mas, nikmati panorama alam Lombok Barat yang membentang luas dan indah. [Info: Buwun (Sasak: 'mata air/sumur/sumber air') + Mas (Melayu/BI: 'emas'); hidrologis morfo-geografis nama dengan a warna/nilai kualifikasi referencing emas/keemasan mineral-rich water atau gold-mining history.]",
         "Deskripsi_EN": "From the peak of Bukit Buwun Mas, enjoy the vast and beautiful natural panorama of West Lombok. [Additional Info: Buwun (Sasak: 'spring/well/water source') + Mas (Malay/ID: 'gold'); morpho-geographic hydrological name with a colour/value qualifier referencing golden mineral-rich water or gold-mining history.]"
       }
     },
@@ -285,7 +285,7 @@
         "Jenis_Wisata": "Admin-commemorative",
         "Kategori": "Admin-commemorative",
         "Lokasi_Detail": "Lingsar",
-        "Deskripsi_ID": "Eksplorasi Desa Batu Kumbung yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Batu ('stone') + Kumbung (Melayu/Sasak: 'lumbung terbuka'); unit desa administratif yang ditetapkan secara resmi.]",
+        "Deskripsi_ID": "Eksplorasi Desa Batu Kumbung yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Batu ('batu') + Kumbung (Melayu/Sasak: 'lumbung terbuka'); unit desa administratif yang ditetapkan secara resmi.]",
         "Deskripsi_EN": "Explore Desa Batu Kumbung village which offers a blend of local culture and rural natural beauty. [Additional Info: Batu ('stone') + Kumbung (Malay/Sasak: 'open-sided granary shed'); formally designated administrative village unit.]"
       }
     },
@@ -339,7 +339,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Batulayar",
-        "Deskripsi_ID": "Eksplorasi Desa Batulayar yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Batu ('stone') + Layar (BI: 'layar'); morfo-geografis — merujuk pada formasi batuan berbentuk layar; desa ini dinamai berdasarkan landmark tersebut.]",
+        "Deskripsi_ID": "Eksplorasi Desa Batulayar yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Batu ('batu') + Layar (BI: 'layar'); morfo-geografis — merujuk pada formasi batuan berbentuk layar; desa ini dinamai berdasarkan landmark tersebut.]",
         "Deskripsi_EN": "Explore Desa Batulayar village which offers a blend of local culture and rural natural beauty. [Additional Info: Batu ('stone') + Layar (ID: 'sail'); morpho-geographic — references a sail-shaped rock formation; the village is named for the landmark.]"
       }
     },
@@ -411,7 +411,7 @@
         "Jenis_Wisata": "Admin-commemorative",
         "Kategori": "Admin-commemorative",
         "Lokasi_Detail": "Sekotong",
-        "Deskripsi_ID": "Eksplorasi Desa Buwun Mas yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Buwun Mas ('golden spring'); unit desa administratif yang ditetapkan secara resmi — the morfo-geografis name functions administratively.]",
+        "Deskripsi_ID": "Eksplorasi Desa Buwun Mas yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Buwun Mas ('emas/keemasan mata air'); unit desa administratif yang ditetapkan secara resmi — morfo-geografis nama berfungsi administratively.]",
         "Deskripsi_EN": "Explore Desa Buwun Mas village which offers a blend of local culture and rural natural beauty. [Additional Info: Buwun Mas ('golden spring'); formally designated administrative village unit — the morpho-geographic name functions administratively.]"
       }
     },
@@ -429,7 +429,7 @@
         "Jenis_Wisata": "Admin-commemorative",
         "Kategori": "Admin-commemorative",
         "Lokasi_Detail": "Narmada",
-        "Deskripsi_ID": "Eksplorasi Desa Buwun Sejati yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Buwun Sejati (BI/Sasak: 'mata air sejati/asli') — epitet administratif aspirasional added to the original toponym; ditetapkan secara resmi.]",
+        "Deskripsi_ID": "Eksplorasi Desa Buwun Sejati yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Buwun Sejati (BI/Sasak: 'mata air sejati/asli') — epitet administratif aspirasional ditambahkan ke asli toponim; ditetapkan secara resmi.]",
         "Deskripsi_EN": "Explore Desa Buwun Sejati village which offers a blend of local culture and rural natural beauty. [Additional Info: Buwun Sejati (ID/Sasak: 'true/genuine spring') — aspirational administrative epithet added to the original toponym; formally designated.]"
       }
     },
@@ -537,7 +537,7 @@
         "Jenis_Wisata": "Admin-commemorative",
         "Kategori": "Admin-commemorative",
         "Lokasi_Detail": "Lingsar",
-        "Deskripsi_ID": "Eksplorasi Desa Giri Madia yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Giri (Sanskerta: 'gunung') + Madia (Bali/Sanskerta: 'tengah'); ditetapkan secara resmi with penamaan warisan Sanskerta.]",
+        "Deskripsi_ID": "Eksplorasi Desa Giri Madia yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Giri (Sanskerta: 'gunung') + Madia (Bali/Sanskerta: 'tengah'); ditetapkan secara resmi dengan penamaan warisan Sanskerta.]",
         "Deskripsi_EN": "Explore Desa Giri Madia village which offers a blend of local culture and rural natural beauty. [Additional Info: Giri (Sanskrit: 'mountain') + Madia (Balinese/Sanskrit: 'middle'); formally designated with Sanskrit heritage naming.]"
       }
     },
@@ -627,7 +627,7 @@
         "Jenis_Wisata": "Admin-commemorative",
         "Kategori": "Admin-commemorative",
         "Lokasi_Detail": "Gunungsari",
-        "Deskripsi_ID": "Eksplorasi Desa Jatisela yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Jatisela (Jawa: jati 'pohon jati' + sela 'celah di antara batu'); ditetapkan secara resmi with Javanese warisan penamaan.]",
+        "Deskripsi_ID": "Eksplorasi Desa Jatisela yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Jatisela (Jawa: jati 'pohon jati' + sela 'celah di antara batu'); ditetapkan secara resmi dengan Javanese warisan penamaan.]",
         "Deskripsi_EN": "Explore Desa Jatisela village which offers a blend of local culture and rural natural beauty. [Additional Info: Jatisela (Javanese: jati 'teak tree' + sela 'gap between rocks'); formally designated with Javanese heritage naming.]"
       }
     },
@@ -645,7 +645,7 @@
         "Jenis_Wisata": "Admin-commemorative",
         "Kategori": "Admin-commemorative",
         "Lokasi_Detail": "Lingsar",
-        "Deskripsi_ID": "Desa wisata budaya dengan masjid kuno dan tradisi Sasak yang masih kental. [Info: Karang (Melayu: 'terumbu/kluster desa') + Bayan (Sasak: 'burung nuri', Eclectus roratus); ditetapkan secara resmi — the biotik name functions administratively.]",
+        "Deskripsi_ID": "Desa wisata budaya dengan masjid kuno dan tradisi Sasak yang masih kental. [Info: Karang (Melayu: 'terumbu/kluster desa') + Bayan (Sasak: 'burung nuri', Eclectus roratus); ditetapkan secara resmi — biotik nama berfungsi administratively.]",
         "Deskripsi_EN": "A cultural tourism village featuring ancient mosques and preserved Sasak traditions. [Additional Info: Karang (Malay: 'reef/village cluster') + Bayan (Sasak: 'parrot', Eclectus roratus); formally designated — the biotic name functions administratively.]"
       }
     },
@@ -681,7 +681,7 @@
         "Jenis_Wisata": "Admin-commemorative",
         "Kategori": "Admin-commemorative",
         "Lokasi_Detail": "Kediri",
-        "Deskripsi_ID": "Eksplorasi Desa Kediri yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Kediri — nama kerajaan Hindu-Jawa kuno (Sanskerta-derived); penamaan peringatan administratif dengan resonansi sejarah Hindu-Jawa.]",
+        "Deskripsi_ID": "Eksplorasi Desa Kediri yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Kediri — nama kerajaan Hindu-Jawa kuno (berasal dari Sanskerta); penamaan peringatan administratif dengan resonansi sejarah Hindu-Jawa.]",
         "Deskripsi_EN": "Explore Desa Kediri village which offers a blend of local culture and rural natural beauty. [Additional Info: Kediri — name of an ancient Hindu-Javanese kingdom (Sanskrit-derived); administrative commemorative naming with Hindu-Javanese historical resonance.]"
       }
     },
@@ -825,7 +825,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Narmada",
-        "Deskripsi_ID": "Eksplorasi Desa Lembah Sempage yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Lembah (Melayu: 'lembah') + Sempage (Sasak: dari sempage, tidak pasti — kemungkinan a type of tree or the sound of rushing water); nama lembah morfo-geografis yang digunakan sebagai sebutan desa.]",
+        "Deskripsi_ID": "Eksplorasi Desa Lembah Sempage yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Lembah (Melayu: 'lembah') + Sempage (Sasak: dari sempage, tidak pasti — kemungkinan a type of pohon atau sound of rushing water); nama lembah morfo-geografis yang digunakan sebagai sebutan desa.]",
         "Deskripsi_EN": "Explore Desa Lembah Sempage village which offers a blend of local culture and rural natural beauty. [Additional Info: Lembah (Malay: 'valley') + Sempage (Sasak: from sempage, uncertain — possibly a type of tree or the sound of rushing water); morpho-geographic valley name used as a village designation.]"
       }
     },
@@ -915,7 +915,7 @@
         "Jenis_Wisata": "Admin-commemorative",
         "Kategori": "Admin-commemorative",
         "Lokasi_Detail": "Narmada",
-        "Deskripsi_ID": "Eksplorasi Desa Mekarsari yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Same aspirational name applied to a second desa in Narmada sub-district; ditetapkan secara resmi.]",
+        "Deskripsi_ID": "Eksplorasi Desa Mekarsari yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Same aspirational nama applied to a second desa in Narmada sub-district; ditetapkan secara resmi.]",
         "Deskripsi_EN": "Explore Desa Mekarsari village which offers a blend of local culture and rural natural beauty. [Additional Info: Same aspirational name applied to a second village in Narmada sub-district; formally designated.]"
       }
     },
@@ -1149,7 +1149,7 @@
         "Jenis_Wisata": "Admin-commemorative",
         "Kategori": "Admin-commemorative",
         "Lokasi_Detail": "Batulayar",
-        "Deskripsi_ID": "Ikon pariwisata Lombok Barat dengan pantai pasir putih dan sunset yang legendaris. [Info: Senggigi (Sasak toponym of akar kata tidak pasti, kemungkinan dari sengi 'hanyut'); unit desa administratif yang ditetapkan secara resmi.]",
+        "Deskripsi_ID": "Ikon pariwisata Lombok Barat dengan pantai pasir putih dan sunset yang legendaris. [Info: Senggigi (Sasak toponim of akar kata tidak pasti, kemungkinan dari sengi 'hanyut'); unit desa administratif yang ditetapkan secara resmi.]",
         "Deskripsi_EN": "The tourism icon of West Lombok with white sandy beaches and legendary sunsets. [Additional Info: Senggigi (Sasak toponym of uncertain root, possibly from sengi 'to drift'); formally designated administrative village unit.]"
       }
     },
@@ -1221,7 +1221,7 @@
         "Jenis_Wisata": "Admin-commemorative",
         "Kategori": "Admin-commemorative",
         "Lokasi_Detail": "Narmada",
-        "Deskripsi_ID": "Kawasan wisata alam dengan mata air suci dan hutan rimbun yang menyejukkan. [Info: Suranadi (Sanskerta: sura 'dewa/ilahiah' + nadi 'sungai'); unit administratif yang ditetapkan secara resmi — the Sanskerta religious toponym functions administratively.]",
+        "Deskripsi_ID": "Kawasan wisata alam dengan mata air suci dan hutan rimbun yang menyejukkan. [Info: Suranadi (Sanskerta: sura 'dewa/ilahiah' + nadi 'sungai'); unit administratif yang ditetapkan secara resmi — Sanskerta religious toponim berfungsi administratively.]",
         "Deskripsi_EN": "A natural tourism area with sacred springs and lush, cooling forests. [Additional Info: Suranadi (Sanskrit: sura 'divine/deity' + nadi 'river'); formally designated administrative unit — the Sanskrit religious toponym functions administratively.]"
       }
     },
@@ -1275,7 +1275,7 @@
         "Jenis_Wisata": "Descriptive-natural",
         "Kategori": "Descriptive-natural",
         "Lokasi_Detail": "Batu Putih, Sekotong",
-        "Deskripsi_ID": "Salah satu titik selancar terbaik di dunia dengan ombak kiri yang sangat panjang. [Info: Desert Point — alias komersial Inggris for Pantai Bangko-Bangko; descriptive-natural name membangkitkan karakter sensorik gersang, terpencil, dan berangin dari ombak selancar. Toponim pariwisata-komersial neologistik.]",
+        "Deskripsi_ID": "Salah satu titik selancar terbaik di dunia dengan ombak kiri yang sangat panjang. [Info: Desert Point — alias komersial Inggris for Pantai Bangko-Bangko; descriptive-natural nama membangkitkan karakter sensorik gersang, terpencil, dan berangin dari ombak selancar. Toponim pariwisata-komersial neologistik.]",
         "Deskripsi_EN": "One of the best surfing spots in the world with legendary long left-hand barrels. [Additional Info: Desert Point — English commercial alias for Pantai Bangko-Bangko; descriptive-natural name invoking the arid, remote, windswept sensory character of the surf break. A neologistic tourism-commercial toponym.]"
       }
     },
@@ -1293,7 +1293,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Sekotong Barat, Sekotong",
-        "Deskripsi_ID": "Destinasi wisata Elak-Elak yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Elak-Elak (Sasak: bentuk reduplikasi dari elak 'menghindar'); morfo-geografis pesisir name — mungkin merujuk pada garis pantai zigzag atau pola gelombang yang membutuhkan keterampilan navigasi.]",
+        "Deskripsi_ID": "Destinasi wisata Elak-Elak yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Elak-Elak (Sasak: bentuk reduplikasi dari elak 'menghindar'); morfo-geografis pesisir nama — mungkin merujuk pada garis pantai zigzag atau pola gelombang yang membutuhkan keterampilan navigasi.]",
         "Deskripsi_EN": "The Elak-Elak tourism destination offering its own unique charm in West Lombok. [Additional Info: Elak-Elak (Sasak: reduplicated form of elak 'to dodge/avoid'); morpho-geographic coastal name — may reference a zigzag shoreline or wave pattern requiring navigation skill.]"
       }
     },
@@ -1311,7 +1311,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Kedaro, Sekotong",
-        "Deskripsi_ID": "Destinasi wisata Embung Kedaro yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Embung (Jawa/BI: 'waduk kecil/kolam retensi') + Kedaro (nama desa Sasak, akar kata tidak pasti); hidrologis morfo-geografis infrastructure name.]",
+        "Deskripsi_ID": "Destinasi wisata Embung Kedaro yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Embung (Jawa/BI: 'waduk kecil/kolam retensi') + Kedaro (nama desa Sasak, akar kata tidak pasti); hidrologis morfo-geografis infrastructure nama.]",
         "Deskripsi_EN": "The Embung Kedaro tourism destination offering its own unique charm in West Lombok. [Additional Info: Embung (Javanese/ID: 'small reservoir/retention pond') + Kedaro (Sasak village name, uncertain root); morpho-geographic hydrological infrastructure name.]"
       }
     },
@@ -1383,7 +1383,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Batu Putek, Sekotong",
-        "Deskripsi_ID": "Eksotisme pulau Gili Goleng dengan air laut kristal dan keindahan bawah laut yang menawan. [Info: Gili + Goleng (Sasak: dari goleng/gulung 'bergulir/bulat'); deskriptor bentuk morfo-geografis — the island's rounded form.]",
+        "Deskripsi_ID": "Eksotisme pulau Gili Goleng dengan air laut kristal dan keindahan bawah laut yang menawan. [Info: Gili + Goleng (Sasak: dari goleng/gulung 'bergulir/bulat'); deskriptor bentuk morfo-geografis — island's rounded form.]",
         "Deskripsi_EN": "The exoticism of Gili Goleng island with crystal clear waters and captivating underwater beauty. [Additional Info: Gili + Goleng (Sasak: from goleng/gulung 'to roll/rounded'); morpho-geographic shape descriptor — the island's rounded form.]"
       }
     },
@@ -1419,7 +1419,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Pelangan, Sekotong",
-        "Deskripsi_ID": "Eksotisme pulau Gili Layar dengan air laut kristal dan keindahan bawah laut yang menawan. [Info: Gili + Layar (Melayu: 'sail'); morfo-geografis — merujuk pada profil pulau yang seperti layar atau perannya sebagai landmark pelayaran.]",
+        "Deskripsi_ID": "Eksotisme pulau Gili Layar dengan air laut kristal dan keindahan bawah laut yang menawan. [Info: Gili + Layar (Melayu: 'layar'); morfo-geografis — merujuk pada profil pulau yang seperti layar atau perannya sebagai landmark pelayaran.]",
         "Deskripsi_EN": "The exoticism of Gili Layar island with crystal clear waters and captivating underwater beauty. [Additional Info: Gili + Layar (Malay: 'sail'); morpho-geographic — references the island's sail-like profile or role as a sailing landmark.]"
       }
     },
@@ -1437,7 +1437,7 @@
         "Jenis_Wisata": "Descriptive-natural",
         "Kategori": "Descriptive-natural",
         "Lokasi_Detail": "Tawun, Sekotong",
-        "Deskripsi_ID": "Eksotisme pulau Gili Lontar dengan air laut kristal dan keindahan bawah laut yang menawan. [Info: Gili + Lontar (Melayu/Sasak: palem lontar, Borassus flabellifer); nama biotik deskriptif-alami — the island dicirikan oleh its dominant palm species.]",
+        "Deskripsi_ID": "Eksotisme pulau Gili Lontar dengan air laut kristal dan keindahan bawah laut yang menawan. [Info: Gili + Lontar (Melayu/Sasak: palem lontar, Borassus flabellifer); nama biotik deskriptif-alami — island dicirikan oleh its dominant palm species.]",
         "Deskripsi_EN": "The exoticism of Gili Lontar island with crystal clear waters and captivating underwater beauty. [Additional Info: Gili + Lontar (Malay/Sasak: the lontar palm, Borassus flabellifer); descriptive-natural biotic name — the island characterised by its dominant palm species.]"
       }
     },
@@ -1473,7 +1473,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Tawun, Sekotong",
-        "Deskripsi_ID": "Pulau tenang dengan pasir putih dan taman laut yang penuh ikan warna-warni. [Info: Gili + Nanggu (Sasak: kemungkinan jenis tanaman merambat pesisir atau tanaman tali); morfo-geografis island with biotik kualifikasi struktural.]",
+        "Deskripsi_ID": "Pulau tenang dengan pasir putih dan taman laut yang penuh ikan warna-warni. [Info: Gili + Nanggu (Sasak: kemungkinan jenis tanaman merambat pesisir atau tanaman tali); morfo-geografis island dengan biotik kualifikasi struktural.]",
         "Deskripsi_EN": "A peaceful island with white sand and a marine park filled with colorful fish. [Additional Info: Gili + Nanggu (Sasak: possibly a type of coastal vine or rope plant); morpho-geographic island with biotic structural qualifier.]"
       }
     },
@@ -1491,7 +1491,7 @@
         "Jenis_Wisata": "Descriptive-natural",
         "Kategori": "Descriptive-natural",
         "Lokasi_Detail": "Tawun, Sekotong",
-        "Deskripsi_ID": "Eksotisme pulau Gili Poh dengan air laut kristal dan keindahan bawah laut yang menawan. [Info: Gili + Poh (Sasak: pohon mangga, Mangifera indica); nama biotik deskriptif-alami — the island dicirikan oleh its mango trees.]",
+        "Deskripsi_ID": "Eksotisme pulau Gili Poh dengan air laut kristal dan keindahan bawah laut yang menawan. [Info: Gili + Poh (Sasak: pohon mangga, Mangifera indica); nama biotik deskriptif-alami — island dicirikan oleh its mango trees.]",
         "Deskripsi_EN": "The exoticism of Gili Poh island with crystal clear waters and captivating underwater beauty. [Additional Info: Gili + Poh (Sasak: the mango tree, Mangifera indica); descriptive-natural biotic name — the island characterised by its mango trees.]"
       }
     },
@@ -1545,7 +1545,7 @@
         "Jenis_Wisata": "Descriptive-natural",
         "Kategori": "Descriptive-natural",
         "Lokasi_Detail": "Tawun, Sekotong",
-        "Deskripsi_ID": "Eksotisme pulau Gili Tangkong dengan air laut kristal dan keindahan bawah laut yang menawan. [Info: Gili + Tangkong (Sasak: tanaman merambat pesisir, Caesalpinia bonduc); nama biotik deskriptif-alami — the island dicirikan oleh its dominant creeper species.]",
+        "Deskripsi_ID": "Eksotisme pulau Gili Tangkong dengan air laut kristal dan keindahan bawah laut yang menawan. [Info: Gili + Tangkong (Sasak: tanaman merambat pesisir, Caesalpinia bonduc); nama biotik deskriptif-alami — island dicirikan oleh its dominant creeper species.]",
         "Deskripsi_EN": "The exoticism of Gili Tangkong island with crystal clear waters and captivating underwater beauty. [Additional Info: Gili + Tangkong (Sasak: a coastal vine, Caesalpinia bonduc); descriptive-natural biotic name — the island characterised by its dominant creeper species.]"
       }
     },
@@ -1599,7 +1599,7 @@
         "Jenis_Wisata": "Ethno-cultural",
         "Kategori": "Ethno-cultural",
         "Lokasi_Detail": "Batu Putek, Sekotong",
-        "Deskripsi_ID": "Keunikan geologis Gua Jepang Labuan Poh yang mempesona dan menarik untuk dijelajahi. [Info: Gua ('cave') + Jepang (BI: 'Jepang') + Labuan (Melayu: 'labuhan/pelabuhan') + Poh (Sasak: 'mango tree'); ethno-cultural nama sejarah yang memperingati benteng goa militer Jepang pada Perang Dunia II.]",
+        "Deskripsi_ID": "Keunikan geologis Gua Jepang Labuan Poh yang mempesona dan menarik untuk dijelajahi. [Info: Gua ('cave') + Jepang (BI: 'Jepang') + Labuan (Melayu: 'labuhan/pelabuhan') + Poh (Sasak: 'mango pohon'); ethno-cultural nama sejarah yang memperingati benteng goa militer Jepang pada Perang Dunia II.]",
         "Deskripsi_EN": "The fascinating geological uniqueness of Gua Jepang Labuan Poh, interesting to explore. [Additional Info: Gua ('cave') + Jepang (ID: 'Japanese') + Labuan (Malay: 'anchorage/harbour') + Poh (Sasak: 'mango tree'); ethno-cultural historical name commemorating WWII Japanese military cave fortifications.]"
       }
     },
@@ -1689,7 +1689,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Sesaot, Narmada",
-        "Deskripsi_ID": "Desa wisata dengan hutan lindung yang asri dan pemandian sungai yang jernih. [Info: Hutan Wisata + Sesaot (Sasak: kemungkinan 'spring/sumber point'); morfo-geografis hutan di area sumber daerah aliran sungai.]",
+        "Deskripsi_ID": "Desa wisata dengan hutan lindung yang asri dan pemandian sungai yang jernih. [Info: Hutan Wisata + Sesaot (Sasak: kemungkinan 'mata air/sumber point'); morfo-geografis hutan di area sumber daerah aliran sungai.]",
         "Deskripsi_EN": "A community-based tourism village with pristine forests and clear river bathing spots. [Additional Info: Hutan Wisata + Sesaot (Sasak: possibly 'spring/source point'); morpho-geographic forest at a watershed source area.]"
       }
     },
@@ -1779,7 +1779,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Kediri, Kediri",
-        "Deskripsi_ID": "Destinasi wisata Kokok Babak Kediri yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Kokok (Sasak: 'anak sungai/sungai kecil') + Babak (Sasak: 'bentangan/bagian') + Kediri (desa name); hidrologis morfo-geografis name — a named sungai stretch.]",
+        "Deskripsi_ID": "Destinasi wisata Kokok Babak Kediri yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Kokok (Sasak: 'anak sungai/sungai kecil') + Babak (Sasak: 'bentangan/bagian') + Kediri (desa nama); hidrologis morfo-geografis nama — a named sungai stretch.]",
         "Deskripsi_EN": "The Kokok Babak Kediri tourism destination offering its own unique charm in West Lombok. [Additional Info: Kokok (Sasak: 'stream/small river') + Babak (Sasak: 'stretch/section') + Kediri (village name); morpho-geographic hydrological name — a named river stretch.]"
       }
     },
@@ -1797,7 +1797,7 @@
         "Jenis_Wisata": "Ethno-cultural",
         "Kategori": "Ethno-cultural",
         "Lokasi_Detail": "Batulayar, Batulayar",
-        "Deskripsi_ID": "Situs sejarah religi Makam Batulayar yang sarat akan nilai budaya dan menjadi tujuan ziarah. [Info: Makam (Bahasa Indonesia: 'makam') + Batulayar (sail-shaped rock); makam Islam suci dari tokoh agama yang dihormati (*wali*) — ethno-cultural religious.]",
+        "Deskripsi_ID": "Situs sejarah religi Makam Batulayar yang sarat akan nilai budaya dan menjadi tujuan ziarah. [Info: Makam (Bahasa Indonesia: 'makam') + Batulayar (layar-shaped batu); makam Islam suci dari tokoh agama yang dihormati (*wali*) — ethno-cultural religious.]",
         "Deskripsi_EN": "The historical religious site of Makam Batulayar, rich in cultural value and a major pilgrimage destination. [Additional Info: Makam (Indonesian: 'tomb/grave') + Batulayar (sail-shaped rock); sacred Islamic tomb of a venerated religious figure (*wali*) — ethno-cultural religious.]"
       }
     },
@@ -1905,7 +1905,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Sekotong Tengah, Sekotong",
-        "Deskripsi_ID": "Destinasi wisata Mangrove Tanjung Batu yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Mangrove + Tanjung (Melayu: 'tanjung') + Batu ('stone/rock'); morfo-geografis — hutan mangrove di tanjung berbatu.]",
+        "Deskripsi_ID": "Destinasi wisata Mangrove Tanjung Batu yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Mangrove + Tanjung (Melayu: 'tanjung') + Batu ('batu/batu'); morfo-geografis — hutan mangrove di tanjung berbatu.]",
         "Deskripsi_EN": "The Mangrove Tanjung Batu tourism destination offering its own unique charm in West Lombok. [Additional Info: Mangrove + Tanjung (Malay: 'cape/headland') + Batu ('stone/rock'); morpho-geographic — mangrove forest at a rocky headland.]"
       }
     },
@@ -1977,7 +1977,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Sepi, Sekotong",
-        "Deskripsi_ID": "Indahnya Pantai Bange dengan hamparan pasir dan deburan ombak, tempat ideal untuk melepas penat. [Info: Pantai (Melayu/BI: 'pantai') + Bange (Sasak: kemungkinan dari bange/mbange, sejenis rumput pesisir atau suara ombak); morfo-geografis pesisir name.]",
+        "Deskripsi_ID": "Indahnya Pantai Bange dengan hamparan pasir dan deburan ombak, tempat ideal untuk melepas penat. [Info: Pantai (Melayu/BI: 'pantai') + Bange (Sasak: kemungkinan dari bange/mbange, sejenis rumput pesisir atau suara ombak); morfo-geografis pesisir nama.]",
         "Deskripsi_EN": "The beauty of Pantai Bange beach with its stretch of sand and soothing waves, an ideal place to unwind. [Additional Info: Pantai (Malay/ID: 'beach') + Bange (Sasak: possibly from bange/mbange, a type of coastal grass or the sound of waves); morpho-geographic coastal name.]"
       }
     },
@@ -2013,7 +2013,7 @@
         "Jenis_Wisata": "Descriptive-natural",
         "Kategori": "Descriptive-natural",
         "Lokasi_Detail": "Senggigi, Batulayar",
-        "Deskripsi_ID": "Indahnya Pantai Duduk dengan hamparan pasir dan deburan ombak, tempat ideal untuk melepas penat. [Info: Pantai + Duduk (BI/Sasak: 'duduk'); descriptive-natural name menyandikan kualitas sensorik-pengalaman dari pantai — tempat yang tenang dan damai yang mengundang seseorang untuk duduk dan beristirahat.]",
+        "Deskripsi_ID": "Indahnya Pantai Duduk dengan hamparan pasir dan deburan ombak, tempat ideal untuk melepas penat. [Info: Pantai + Duduk (BI/Sasak: 'duduk'); descriptive-natural nama menyandikan kualitas sensorik-pengalaman dari pantai — tempat yang tenang dan damai yang mengundang seseorang untuk duduk dan beristirahat.]",
         "Deskripsi_EN": "The beauty of Pantai Duduk beach with its stretch of sand and soothing waves, an ideal place to unwind. [Additional Info: Pantai + Duduk (ID/Sasak: 'to sit/sitting'); descriptive-natural name encoding the sensory-experiential quality of the beach — a calm, serene place inviting one to sit and rest.]"
       }
     },
@@ -2103,7 +2103,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Pelangan, Sekotong",
-        "Deskripsi_ID": "Indahnya Pantai Mekaki dengan hamparan pasir dan deburan ombak, tempat ideal untuk melepas penat. [Info: Mekaki (Sasak toponym of akar kata tidak pasti); morfo-geografis nama tempat pesisir untuk bentangan pantai ini.]",
+        "Deskripsi_ID": "Indahnya Pantai Mekaki dengan hamparan pasir dan deburan ombak, tempat ideal untuk melepas penat. [Info: Mekaki (Sasak toponim of akar kata tidak pasti); morfo-geografis nama tempat pesisir untuk bentangan pantai ini.]",
         "Deskripsi_EN": "The beauty of Pantai Mekaki beach with its stretch of sand and soothing waves, an ideal place to unwind. [Additional Info: Mekaki (Sasak toponym of uncertain root); morpho-geographic coastal place name for this stretch of shore.]"
       }
     },
@@ -2121,7 +2121,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Meninting, Batulayar",
-        "Deskripsi_ID": "Indahnya Pantai Meninting dengan hamparan pasir dan deburan ombak, tempat ideal untuk melepas penat. [Info: Pantai + Meninting (dari the desa name; Sasak: kemungkinan dari tintin 'to carry'); morfo-geografis nama pesisir yang terikat pada pemukiman.]",
+        "Deskripsi_ID": "Indahnya Pantai Meninting dengan hamparan pasir dan deburan ombak, tempat ideal untuk melepas penat. [Info: Pantai + Meninting (dari desa nama; Sasak: kemungkinan dari tintin 'to carry'); morfo-geografis nama pesisir yang terikat pada pemukiman.]",
         "Deskripsi_EN": "The beauty of Pantai Meninting beach with its stretch of sand and soothing waves, an ideal place to unwind. [Additional Info: Pantai + Meninting (from the village name; Sasak: possibly from tintin 'to carry'); morpho-geographic coastal name tied to the settlement.]"
       }
     },
@@ -2175,7 +2175,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Senggigi, Batulayar",
-        "Deskripsi_ID": "Ikon pariwisata Lombok Barat dengan pantai pasir putih dan sunset yang legendaris. [Info: Pantai + Senggigi (Sasak: akar kata tidak pasti, kemungkinan dari sengi 'to drift/wave'); morfo-geografis pesisir name.]",
+        "Deskripsi_ID": "Ikon pariwisata Lombok Barat dengan pantai pasir putih dan sunset yang legendaris. [Info: Pantai + Senggigi (Sasak: akar kata tidak pasti, kemungkinan dari sengi 'to drift/wave'); morfo-geografis pesisir nama.]",
         "Deskripsi_EN": "The tourism icon of West Lombok with white sandy beaches and legendary sunsets. [Additional Info: Pantai + Senggigi (Sasak: uncertain root, possibly from sengi 'to drift/wave'); morpho-geographic coastal name.]"
       }
     },
@@ -2193,7 +2193,7 @@
         "Jenis_Wisata": "Descriptive-natural",
         "Kategori": "Descriptive-natural",
         "Lokasi_Detail": "Sepi, Sekotong",
-        "Deskripsi_ID": "Indahnya Pantai Sepi dengan hamparan pasir dan deburan ombak, tempat ideal untuk melepas penat. [Info: Pantai + Sepi (BI: 'sepi/kosong/terisolasi'); descriptive-natural name menyandikan kualitas sensorik kesunyian dan keheningan — deskriptor auditori-atmosferik.]",
+        "Deskripsi_ID": "Indahnya Pantai Sepi dengan hamparan pasir dan deburan ombak, tempat ideal untuk melepas penat. [Info: Pantai + Sepi (BI: 'sepi/kosong/terisolasi'); descriptive-natural nama menyandikan kualitas sensorik kesunyian dan keheningan — deskriptor auditori-atmosferik.]",
         "Deskripsi_EN": "The beauty of Pantai Sepi beach with its stretch of sand and soothing waves, an ideal place to unwind. [Additional Info: Pantai + Sepi (ID: 'quiet/deserted/isolated'); descriptive-natural name encoding the sensory quality of solitude and silence — an auditory-atmospheric descriptor.]"
       }
     },
@@ -2265,7 +2265,7 @@
         "Jenis_Wisata": "Ethno-cultural",
         "Kategori": "Ethno-cultural",
         "Lokasi_Detail": "Sesela, Gunungsari",
-        "Deskripsi_ID": "Destinasi wisata Pasar Seni Sesela yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Pasar Seni (BI: 'pasar seni') + Sesela (Sasak desa name); ethno-cultural nama identitas kerajinan/komersial — tempat yang ditentukan oleh tradisi pasar pengrajinnya.]",
+        "Deskripsi_ID": "Destinasi wisata Pasar Seni Sesela yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Pasar Seni (BI: 'pasar seni') + Sesela (Sasak desa nama); ethno-cultural nama identitas kerajinan/komersial — tempat yang ditentukan oleh tradisi pasar pengrajinnya.]",
         "Deskripsi_EN": "The Pasar Seni Sesela tourism destination offering its own unique charm in West Lombok. [Additional Info: Pasar Seni (ID: 'art market') + Sesela (Sasak village name); ethno-cultural craft/commercial-identity name — the place defined by its artisan market tradition.]"
       }
     },
@@ -2391,7 +2391,7 @@
         "Jenis_Wisata": "Ethno-cultural",
         "Kategori": "Ethno-cultural",
         "Lokasi_Detail": "Narmada, Narmada",
-        "Deskripsi_ID": "Area Taman Gandari Kawari yang tertata cantik, cocok untuk bersantai bersama teman dan keluarga. [Info: Taman ('garden') + Gandari (Sanskerta: dari Gandhari, a queen in the Mahabharata; or dari gandha 'fragrance') + Kawari (Sasak: 'special/unique'); ethno-cultural name encoding Hindu literary-cultural warisan.]",
+        "Deskripsi_ID": "Area Taman Gandari Kawari yang tertata cantik, cocok untuk bersantai bersama teman dan keluarga. [Info: Taman ('garden') + Gandari (Sanskerta: dari Gandhari, a queen in Mahabharata; atau dari gandha 'fragrance') + Kawari (Sasak: 'special/unique'); ethno-cultural nama encoding Hindu literary-cultural warisan.]",
         "Deskripsi_EN": "The beautifully arranged Taman Gandari Kawari park, perfect for relaxing with friends and family. [Additional Info: Taman ('garden') + Gandari (Sanskrit: from Gandhari, a queen in the Mahabharata; or from gandha 'fragrance') + Kawari (Sasak: 'special/unique'); ethno-cultural name encoding Hindu literary-cultural heritage.]"
       }
     },
@@ -2409,7 +2409,7 @@
         "Jenis_Wisata": "Descriptive-natural",
         "Kategori": "Descriptive-natural",
         "Lokasi_Detail": "Bengkaung, Batulayar",
-        "Deskripsi_ID": "Area Taman Langit yang tertata cantik, cocok untuk bersantai bersama teman dan keluarga. [Info: Taman ('garden/park') + Langit (BI: 'langit'); descriptive-natural name membangkitkan pengalaman sensorik menghadap langit, di ketinggian, dan terbuka dari titik pandang puncak bukit ini.]",
+        "Deskripsi_ID": "Area Taman Langit yang tertata cantik, cocok untuk bersantai bersama teman dan keluarga. [Info: Taman ('garden/park') + Langit (BI: 'langit'); descriptive-natural nama membangkitkan pengalaman sensorik menghadap langit, di ketinggian, dan terbuka dari titik pandang puncak bukit ini.]",
         "Deskripsi_EN": "The beautifully arranged Taman Langit park, perfect for relaxing with friends and family. [Additional Info: Taman ('garden/park') + Langit (ID: 'sky'); descriptive-natural name evoking the sky-facing, elevated, open-air sensory experience of this hilltop viewpoint.]"
       }
     },
@@ -2463,7 +2463,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Sekotong Tengah, Sekotong",
-        "Deskripsi_ID": "Destinasi wisata Tanjung Kelor yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Tanjung (Melayu: 'tanjung') + Kelor (Malay/BI: pohon kelor, Moringa oleifera); morfo-geografis cape name with a biotik kualifikasi — pohon kelor menandai tanjung tersebut.]",
+        "Deskripsi_ID": "Destinasi wisata Tanjung Kelor yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Tanjung (Melayu: 'tanjung') + Kelor (Malay/BI: pohon kelor, Moringa oleifera); morfo-geografis cape nama dengan a biotik kualifikasi — pohon kelor menandai tanjung tersebut.]",
         "Deskripsi_EN": "The Tanjung Kelor tourism destination offering its own unique charm in West Lombok. [Additional Info: Tanjung (Malay: 'cape/headland') + Kelor (Malay/ID: the moringa tree, Moringa oleifera); morpho-geographic cape name with a biotic qualifier — moringa trees mark the headland.]"
       }
     },
@@ -2481,7 +2481,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Sekotong Barat, Sekotong",
-        "Deskripsi_ID": "Destinasi wisata Tawun yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Tawun (Sasak: dari tawun/tewun, kemungkinan 'tempat berkumpul' atau jenis tanaman pesisir); morfo-geografis pesisir settlement name.]",
+        "Deskripsi_ID": "Destinasi wisata Tawun yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Tawun (Sasak: dari tawun/tewun, kemungkinan 'tempat berkumpul' atau jenis tanaman pesisir); morfo-geografis pesisir pemukiman nama.]",
         "Deskripsi_EN": "The Tawun tourism destination offering its own unique charm in West Lombok. [Additional Info: Tawun (Sasak: from tawun/tewun, possibly 'a place of gathering' or a type of coastal plant); morpho-geographic coastal settlement name.]"
       }
     },
@@ -2499,7 +2499,7 @@
         "Jenis_Wisata": "Descriptive-natural",
         "Kategori": "Descriptive-natural",
         "Lokasi_Detail": "Mareje Timur, Lembar",
-        "Deskripsi_ID": "Destinasi wisata Telaga Pandan Wangi yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Telaga (Melayu: 'lake/pond') + Pandan Wangi (Melayu: pandan wangi, Pandanus amaryllifolius); descriptive-natural nama yang menyandikan fitur air sekaligus kualitas penciuman — kolam yang dicirikan oleh wangi pandan.]",
+        "Deskripsi_ID": "Destinasi wisata Telaga Pandan Wangi yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Telaga (Melayu: 'danau/kolam') + Pandan Wangi (Melayu: pandan wangi, Pandanus amaryllifolius); descriptive-natural nama yang menyandikan fitur air sekaligus kualitas penciuman — kolam yang dicirikan oleh wangi pandan.]",
         "Deskripsi_EN": "The Telaga Pandan Wangi tourism destination offering its own unique charm in West Lombok. [Additional Info: Telaga (Malay: 'lake/pond') + Pandan Wangi (Malay: the fragrant pandan, Pandanus amaryllifolius); descriptive-natural name encoding both a water feature and an olfactory quality — the pond characterised by the fragrance of pandan.]"
       }
     },
@@ -2517,7 +2517,7 @@
         "Jenis_Wisata": "Morpho-geographic",
         "Kategori": "Morpho-geographic",
         "Lokasi_Detail": "Batu Putih, Sekotong",
-        "Deskripsi_ID": "Destinasi wisata Tembowong yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Tembowong (Sasak: kemungkinan dari tembong 'muncul/timbul' atau buwong 'mata air/lubang air yang muncul ke permukaan'); hidrologis morfo-geografis name — sumber air alami yang muncul dari tanah.]",
+        "Deskripsi_ID": "Destinasi wisata Tembowong yang menawarkan pesona dan keunikan tersendiri di Lombok Barat. [Info: Tembowong (Sasak: kemungkinan dari tembong 'muncul/timbul' atau buwong 'mata air/lubang air yang muncul ke permukaan'); hidrologis morfo-geografis nama — sumber air alami yang muncul dari tanah.]",
         "Deskripsi_EN": "The Tembowong tourism destination offering its own unique charm in West Lombok. [Additional Info: Tembowong (Sasak: possibly from tembong 'to appear/emerge' or buwong 'a spring/water hole that surfaces'); morpho-geographic hydrological name — a natural water source that emerges from the ground.]"
       }
     }
