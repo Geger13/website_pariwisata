@@ -78,7 +78,7 @@ const ChangeView = memo(
   },
 );
 
-const SidebarItem = memo(({ item, handleZoomTo }: any) => (
+const SidebarItem = memo(({ item, handleZoomTo, lang }: any) => (
   <div
     onClick={() => handleZoomTo(item.Latitude, item.Longitude)}
     className="group relative bg-white rounded-3xl border border-slate-50 hover:border-emerald-100 hover:shadow-xl transition-all cursor-pointer overflow-hidden p-3 flex gap-4"
@@ -103,13 +103,13 @@ const SidebarItem = memo(({ item, handleZoomTo }: any) => (
         {item.Nama}
       </h3>
       <p className="text-[10px] text-slate-400 line-clamp-2 italic leading-tight">
-        {item.Deskripsi}
+        {lang === "ID" ? item.Deskripsi_ID : item.Deskripsi_EN}
       </p>
     </div>
   </div>
 ));
 
-const TourismMap = () => {
+const TourismMap = ({ lang = "ID" }: { lang?: "ID" | "EN" }) => {
   const { data, loading } = useTourismData();
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Semua");
@@ -155,10 +155,12 @@ const TourismMap = () => {
         item.Kategori.toLowerCase() === selectedCategory.toLowerCase();
       const matchSearch =
         item.Nama.toLowerCase().includes(term) ||
-        item.Deskripsi.toLowerCase().includes(term);
+        (lang === "ID" ? item.Deskripsi_ID : item.Deskripsi_EN)
+          .toLowerCase()
+          .includes(term);
       return matchCat && matchSearch;
     });
-  }, [data, selectedCategory, searchTerm]);
+  }, [data, selectedCategory, searchTerm, lang]);
 
   const handleZoomTo = (lat: number, lng: number) => {
     setMapConfig({ center: [lat, lng], zoom: 16 });
@@ -197,7 +199,9 @@ const TourismMap = () => {
             <div className="p-4 border-b border-slate-50">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-[10px] font-black text-slate-900 italic uppercase tracking-widest">
-                  Pencarian Destinasi
+                  {lang === "ID"
+                    ? "Pencarian Destinasi"
+                    : "Search Destinations"}
                 </h2>
                 <button
                   onClick={() => setSidebarOpen(false)}
@@ -214,7 +218,11 @@ const TourismMap = () => {
                 />
                 <input
                   type="text"
-                  placeholder="Cari lokasi wisata..."
+                  placeholder={
+                    lang === "ID"
+                      ? "Cari lokasi wisata..."
+                      : "Search tourism locations..."
+                  }
                   className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-100 rounded-2xl text-[12px] font-bold focus:ring-1 focus:ring-emerald-500/20 outline-none transition-all"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
@@ -225,11 +233,16 @@ const TourismMap = () => {
             <div className="flex-grow overflow-y-auto px-4 py-4 pb-20 space-y-3 custom-scrollbar select-text bg-white">
               <div className="flex items-center justify-between px-1 mb-2">
                 <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">
-                  Hasil: {filteredData.length} Destinasi
+                  {lang === "ID"
+                    ? `Hasil: ${filteredData.length} Destinasi`
+                    : `Results: ${filteredData.length} Destinations`}
                 </span>
                 {selectedCategory !== "Semua" && (
                   <span className="text-[9px] font-black text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full uppercase tracking-tighter">
-                    Filter: {selectedCategory}
+                    Filter:{" "}
+                    {selectedCategory === "Semua" && lang === "EN"
+                      ? "All"
+                      : selectedCategory}
                   </span>
                 )}
               </div>
@@ -238,6 +251,7 @@ const TourismMap = () => {
                   key={`${item.Nama}-${index}`}
                   item={item}
                   handleZoomTo={handleZoomTo}
+                  lang={lang}
                 />
               ))}
             </div>
@@ -270,13 +284,20 @@ const TourismMap = () => {
           <ChangeView center={mapConfig.center} zoom={mapConfig.zoom} />
 
           <LayersControl position="topright">
-            <LayersControl.BaseLayer checked name="Peta Minimalis">
+            <LayersControl.BaseLayer
+              checked
+              name={lang === "ID" ? "Peta Minimalis" : "Minimalist Map"}
+            >
               <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
             </LayersControl.BaseLayer>
-            <LayersControl.BaseLayer name="Satelit">
+            <LayersControl.BaseLayer
+              name={lang === "ID" ? "Satelit" : "Satellite"}
+            >
               <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" />
             </LayersControl.BaseLayer>
-            <LayersControl.BaseLayer name="Peta Jalan">
+            <LayersControl.BaseLayer
+              name={lang === "ID" ? "Peta Jalan" : "Road Map"}
+            >
               <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             </LayersControl.BaseLayer>
           </LayersControl>
@@ -288,7 +309,7 @@ const TourismMap = () => {
             <div className="bg-white/95 backdrop-blur-md p-3 rounded-[20px] shadow-xl border border-white/50 space-y-2.5">
               <div className="flex items-center gap-4 px-1">
                 <h3 className="text-[9px] font-black uppercase tracking-[0.2em] text-slate-400">
-                  Legenda
+                  {lang === "ID" ? "Legenda" : "Legend"}
                 </h3>
                 {selectedCategory !== "Semua" && (
                   <button
@@ -309,7 +330,7 @@ const TourismMap = () => {
                     className={`w-1.5 h-1.5 rounded-full ${selectedCategory === "Semua" ? "bg-emerald-400" : "bg-slate-300"}`}
                   />
                   <span className="text-[10px] font-black uppercase tracking-tight">
-                    Semua
+                    {lang === "ID" ? "Semua" : "All"}
                   </span>
                 </button>
 
@@ -367,7 +388,11 @@ const TourismMap = () => {
 
             <button
               onClick={() => setShowLabelsAlways(!showLabelsAlways)}
-              title="Toggle Nama Pariwisata"
+              title={
+                lang === "ID"
+                  ? "Toggle Nama Pariwisata"
+                  : "Toggle Tourism Names"
+              }
               className={`w-14 h-14 rounded-2xl shadow-2xl flex items-center justify-center transition-all border ${showLabelsAlways ? "bg-emerald-600 text-white border-emerald-500 shadow-emerald-200" : "bg-white text-slate-600 border-slate-100 hover:bg-slate-50"}`}
             >
               <Settings2 size={24} />
@@ -420,8 +445,12 @@ const TourismMap = () => {
                         <Info size={16} />
                       </div>
                       <p className="text-slate-500 text-[13px] leading-relaxed font-medium italic m-0">
-                        {item.Deskripsi ||
-                          "Keindahan alam yang mempesona menanti Anda."}
+                        {(lang === "ID"
+                          ? item.Deskripsi_ID
+                          : item.Deskripsi_EN) ||
+                          (lang === "ID"
+                            ? "Keindahan alam yang mempesona menanti Anda."
+                            : "Mesmerizing natural beauty awaits you.")}
                       </p>
                     </div>
                     <div className="flex items-center justify-between gap-4 pt-4 border-t border-slate-100">
@@ -430,7 +459,11 @@ const TourismMap = () => {
                           navigator.clipboard.writeText(
                             `${item.Latitude}, ${item.Longitude}`,
                           );
-                          alert("Koordinat disalin!");
+                          alert(
+                            lang === "ID"
+                              ? "Koordinat disalin!"
+                              : "Coordinates copied!",
+                          );
                         }}
                         className="flex items-center gap-2 text-[10px] font-black text-slate-400 hover:text-emerald-600 transition-colors uppercase tracking-widest group shrink-0"
                       >
@@ -438,7 +471,11 @@ const TourismMap = () => {
                           size={14}
                           className="opacity-50 group-hover:opacity-100"
                         />
-                        <span>Salin Koordinat</span>
+                        <span>
+                          {lang === "ID"
+                            ? "Salin Koordinat"
+                            : "Copy Coordinates"}
+                        </span>
                       </button>
                       <a
                         href={`https://www.google.com/maps/dir/?api=1&destination=${item.Latitude},${item.Longitude}`}
@@ -447,7 +484,9 @@ const TourismMap = () => {
                         className="flex items-center gap-2 bg-white hover:bg-emerald-50 text-emerald-700 text-[11px] font-black px-5 py-3 rounded-2xl shadow-xl shadow-emerald-100/50 transition-all active:scale-95 uppercase tracking-wider whitespace-nowrap border border-emerald-100"
                       >
                         <Navigation size={14} fill="#047857" color="#047857" />
-                        <span>RUTE TERCEPAT</span>
+                        <span>
+                          {lang === "ID" ? "RUTE TERCEPAT" : "FASTEST ROUTE"}
+                        </span>
                       </a>
                     </div>
                   </div>

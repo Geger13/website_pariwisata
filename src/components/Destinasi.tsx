@@ -18,7 +18,7 @@ const getCategoryColor = (cat: string) => {
   }
 };
 
-const DestinationCard = memo(({ item, index, getCategoryColor }: any) => (
+const DestinationCard = memo(({ item, index, getCategoryColor, lang }: any) => (
   <motion.div
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
@@ -44,7 +44,7 @@ const DestinationCard = memo(({ item, index, getCategoryColor }: any) => (
         {item.Nama}
       </h3>
       <p className="text-slate-500 text-xs leading-relaxed line-clamp-2 mb-6">
-        {item.Deskripsi}
+        {lang === "ID" ? item.Deskripsi_ID : item.Deskripsi_EN}
       </p>
       <div className="flex items-center justify-between pt-4 border-t border-slate-50">
         <div className="flex items-center gap-2 text-slate-300 font-bold text-[9px] uppercase tracking-widest">
@@ -63,7 +63,7 @@ const DestinationCard = memo(({ item, index, getCategoryColor }: any) => (
   </motion.div>
 ));
 
-const Destinasi = () => {
+const Destinasi = ({ lang = "ID" }: { lang?: "ID" | "EN" }) => {
   const { data, categories, loading } = useTourismData();
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Semua");
@@ -73,15 +73,19 @@ const Destinasi = () => {
     return data.filter((item) => {
       const matchCat =
         selectedCategory === "Semua" || item.Kategori === selectedCategory;
-      const matchSearch = item.Nama.toLowerCase().includes(term);
+      const matchSearch =
+        item.Nama.toLowerCase().includes(term) ||
+        (lang === "ID" ? item.Deskripsi_ID : item.Deskripsi_EN)
+          .toLowerCase()
+          .includes(term);
       return matchCat && matchSearch;
     });
-  }, [data, selectedCategory, searchTerm]);
+  }, [data, selectedCategory, searchTerm, lang]);
 
   if (loading)
     return (
       <div className="p-20 text-center font-black animate-pulse text-emerald-600 uppercase tracking-widest">
-        Memuat Destinasi...
+        {lang === "ID" ? "Memuat Destinasi..." : "Loading Destinations..."}
       </div>
     );
 
@@ -91,17 +95,19 @@ const Destinasi = () => {
         <header className="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
             <h2 className="text-3xl font-black text-slate-900 tracking-tighter italic uppercase leading-none">
-              Katalog Destinasi
+              {lang === "ID" ? "Katalog Destinasi" : "Destination Catalog"}
             </h2>
             <p className="text-emerald-600 text-[10px] font-black uppercase tracking-[0.2em] mt-3">
-              Eksplorasi Keindahan Lombok Barat
+              {lang === "ID"
+                ? "Eksplorasi Keindahan Lombok Barat"
+                : "Explore the Beauty of West Lombok"}
             </p>
           </div>
 
           <div className="flex gap-3">
             <input
               type="text"
-              placeholder="Cari..."
+              placeholder={lang === "ID" ? "Cari..." : "Search..."}
               className="px-4 py-2 bg-slate-50 rounded-xl text-sm font-bold focus:ring-2 focus:ring-emerald-500/20 outline-none w-40 md:w-60 transition-all"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
@@ -113,7 +119,7 @@ const Destinasi = () => {
             >
               {categories.map((cat) => (
                 <option key={cat} value={cat}>
-                  {cat}
+                  {cat === "Semua" && lang === "EN" ? "All" : cat}
                 </option>
               ))}
             </select>
@@ -127,6 +133,7 @@ const Destinasi = () => {
               item={item}
               index={index}
               getCategoryColor={getCategoryColor}
+              lang={lang}
             />
           ))}
         </div>

@@ -21,10 +21,16 @@ export const useTourismData = () => {
               properties.Name ||
               "Tanpa Nama",
           );
-          const deskripsi = String(
-            properties.Deskripsi ||
+          const deskripsi_id = String(
+            properties.Deskripsi_ID ||
+              properties.Deskripsi ||
               properties.Jenis_Wisata ||
+              "",
+          );
+          const deskripsi_en = String(
+            properties.Deskripsi_EN ||
               properties.Description ||
+              deskripsi_id ||
               "",
           );
           const kategoriRaw = String(
@@ -35,7 +41,8 @@ export const useTourismData = () => {
             Nama: nama,
             Longitude: geometry.coordinates[0],
             Latitude: geometry.coordinates[1],
-            Deskripsi: deskripsi,
+            Deskripsi_ID: deskripsi_id,
+            Deskripsi_EN: deskripsi_en,
             Kategori: normalizeCategory(kategoriRaw),
             Gambar: getGambar(nama),
           };

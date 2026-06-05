@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Map as MapIcon, Sun, Clock } from "lucide-react";
+import { Map as MapIcon, Sun, Clock, Languages } from "lucide-react";
 
 import TourismMap from "./components/TourismMap";
 import Destinasi from "./components/Destinasi";
@@ -9,6 +9,7 @@ import TentangKami from "./components/TentangKami";
 function App() {
   const [activePage, setActivePage] = useState("eksplorasi");
   const [currentTime, setCurrentTime] = useState(new Date());
+  const [lang, setLang] = useState<"ID" | "EN">("ID");
 
   useEffect(() => {
     const timer = setInterval(() => setCurrentTime(new Date()), 1000);
@@ -18,15 +19,15 @@ function App() {
   const renderPage = () => {
     switch (activePage) {
       case "eksplorasi":
-        return <TourismMap />;
+        return <TourismMap lang={lang} />;
       case "destinasi":
-        return <Destinasi />;
+        return <Destinasi lang={lang} />;
       case "statistik":
         return <Statistik />;
       case "tentang-kami":
         return <TentangKami />;
       default:
-        return <TourismMap />;
+        return <TourismMap lang={lang} />;
     }
   };
 
@@ -47,13 +48,29 @@ function App() {
                 Lombok Barat
               </h1>
               <p className="text-emerald-600 text-[10px] font-black uppercase tracking-[0.2em] mt-1">
-                Pesona Alam & Budaya NTB
+                {lang === "ID"
+                  ? "Pesona Alam & Budaya NTB"
+                  : "The Charm of Nature & Culture"}
               </p>
             </div>
           </div>
 
           {/* Widgets */}
           <div className="hidden lg:flex items-center gap-3 pl-6 border-l border-slate-100">
+            {/* Language Toggle */}
+            <button
+              onClick={() => setLang(lang === "ID" ? "EN" : "ID")}
+              className="flex items-center gap-2 bg-slate-900 text-white px-3 py-1.5 rounded-xl hover:bg-emerald-600 transition-all shadow-md group"
+            >
+              <Languages
+                size={14}
+                className="group-hover:rotate-12 transition-transform"
+              />
+              <span className="text-[10px] font-black uppercase tracking-widest">
+                {lang}
+              </span>
+            </button>
+
             <div className="flex items-center gap-2 bg-slate-50 px-3 py-1.5 rounded-xl border border-slate-100">
               <Sun size={14} className="text-amber-500" />
               <span className="text-[11px] font-black text-slate-600 tracking-tight">
@@ -63,10 +80,13 @@ function App() {
             <div className="flex items-center gap-2 bg-slate-50 px-3 py-1.5 rounded-xl border border-slate-100">
               <Clock size={14} className="text-emerald-500" />
               <span className="text-[11px] font-black text-slate-600 tracking-tight">
-                {currentTime.toLocaleTimeString("id-ID", {
-                  hour: "2-digit",
-                  minute: "2-digit",
-                })}
+                {currentTime.toLocaleTimeString(
+                  lang === "ID" ? "id-ID" : "en-US",
+                  {
+                    hour: "2-digit",
+                    minute: "2-digit",
+                  },
+                )}
               </span>
             </div>
           </div>

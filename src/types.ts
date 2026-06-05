@@ -2,7 +2,8 @@ export interface TourismData {
   Nama: string;
   Latitude: number;
   Longitude: number;
-  Deskripsi: string;
+  Deskripsi_ID: string;
+  Deskripsi_EN: string;
   Kategori: string;
   Gambar?: string;
 }
