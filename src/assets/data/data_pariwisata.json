@@ -5,10 +5,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.248519,
-          -8.538658
-        ]
+        "coordinates": [116.23914867280101, -8.533605576499946]
       },
       "properties": {
         "Nama_Lokasi": "Aik Nyet",
@@ -23,10 +20,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.12989363617412,
-          -8.496894152693546
-        ]
+        "coordinates": [116.12989363617412, -8.496894152693546]
       },
       "properties": {
         "Nama_Lokasi": "Air Terjun Grepek",
@@ -41,10 +35,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.21268925064419,
-          -8.503764180298168
-        ]
+        "coordinates": [116.21268925064419, -8.503764180298168]
       },
       "properties": {
         "Nama_Lokasi": "Air Terjun Prabe",
@@ -59,10 +50,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.29318480178165,
-          -8.498983504423586
-        ]
+        "coordinates": [116.29318480178165, -8.498983504423586]
       },
       "properties": {
         "Nama_Lokasi": "Air Terjun Segenter",
@@ -77,10 +65,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.22959823615396,
-          -8.540281523719974
-        ]
+        "coordinates": [116.22959823615396, -8.540281523719974]
       },
       "properties": {
         "Nama_Lokasi": "Air Terjun Tibu Atas",
@@ -95,10 +80,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.21268925064419,
-          -8.503764180298168
-        ]
+        "coordinates": [116.21268925064419, -8.503764180298168]
       },
       "properties": {
         "Nama_Lokasi": "Air Terjun Timponan",
@@ -113,10 +95,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.85754140575219,
-          -8.726150291702597
-        ]
+        "coordinates": [115.85754140575219, -8.726150291702597]
       },
       "properties": {
         "Nama_Lokasi": "Bangko-Bangko",
@@ -131,10 +110,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1068900938292,
-          -8.708539781035078
-        ]
+        "coordinates": [116.1068900938292, -8.708539781035078]
       },
       "properties": {
         "Nama_Lokasi": "Batu Idung",
@@ -149,10 +125,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.02041912234144,
-          -8.744232308173313
-        ]
+        "coordinates": [116.02041912234144, -8.744232308173313]
       },
       "properties": {
         "Nama_Lokasi": "Batu Kijuk",
@@ -167,10 +140,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1649428536563,
-          -8.710434413204817
-        ]
+        "coordinates": [116.1649428536563, -8.710434413204817]
       },
       "properties": {
         "Nama_Lokasi": "Bukit Ledu",
@@ -185,10 +155,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1346607621078,
-          -8.517885768183902
-        ]
+        "coordinates": [116.1346607621078, -8.517885768183902]
       },
       "properties": {
         "Nama_Lokasi": "Bukit Tiga Rasa",
@@ -203,10 +170,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.03659655150375,
-          -8.84274209251142
-        ]
+        "coordinates": [116.03659655150375, -8.84274209251142]
       },
       "properties": {
         "Nama_Lokasi": "Bukit Buwun Mas",
@@ -221,10 +185,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.10950903270553,
-          -8.645820357668255
-        ]
+        "coordinates": [116.10950903270553, -8.645820357668255]
       },
       "properties": {
         "Nama_Lokasi": "Centra Kerajinan Gerabah",
@@ -239,10 +200,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.26333295567996,
-          -8.573886791569985
-        ]
+        "coordinates": [116.26333295567996, -8.573886791569985]
       },
       "properties": {
         "Nama_Lokasi": "DAM Keru",
@@ -257,10 +215,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1134187955578,
-          -8.647997218300935
-        ]
+        "coordinates": [116.1134187955578, -8.647997218300935]
       },
       "properties": {
         "Nama_Lokasi": "Desa Banyumulek",
@@ -275,10 +230,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.19851079382633,
-          -8.571984109436306
-        ]
+        "coordinates": [116.19851079382633, -8.571984109436306]
       },
       "properties": {
         "Nama_Lokasi": "Desa Batu Kumbung",
@@ -293,10 +245,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.20697944818889,
-          -8.554261250696682
-        ]
+        "coordinates": [116.20697944818889, -8.554261250696682]
       },
       "properties": {
         "Nama_Lokasi": "Desa Batu Mekar",
@@ -311,10 +260,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.88308658687583,
-          -8.768441265374625
-        ]
+        "coordinates": [115.88308658687583, -8.768441265374625]
       },
       "properties": {
         "Nama_Lokasi": "Desa Batu Putih",
@@ -329,10 +275,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.07127765149734,
-          -8.533317661958327
-        ]
+        "coordinates": [116.07127765149734, -8.533317661958327]
       },
       "properties": {
         "Nama_Lokasi": "Desa Batulayar",
@@ -347,10 +290,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.06219045577159,
-          -8.508935570614199
-        ]
+        "coordinates": [116.06219045577159, -8.508935570614199]
       },
       "properties": {
         "Nama_Lokasi": "Desa Batulayar Barat",
@@ -365,10 +305,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.09271620289512,
-          -8.529130975134592
-        ]
+        "coordinates": [116.09271620289512, -8.529130975134592]
       },
       "properties": {
         "Nama_Lokasi": "Desa Bengkaung",
@@ -383,10 +320,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1505917635974,
-          -8.524749287004632
-        ]
+        "coordinates": [116.1505917635974, -8.524749287004632]
       },
       "properties": {
         "Nama_Lokasi": "Desa Bukit Tinggi",
@@ -401,10 +335,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.05712436695723,
-          -8.84977509793448
-        ]
+        "coordinates": [116.05712436695723, -8.84977509793448]
       },
       "properties": {
         "Nama_Lokasi": "Desa Buwun Mas",
@@ -419,10 +350,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.2264619643242,
-          -8.54788184410188
-        ]
+        "coordinates": [116.2264619643242, -8.54788184410188]
       },
       "properties": {
         "Nama_Lokasi": "Desa Buwun Sejati",
@@ -437,10 +365,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.06987259986799,
-          -8.78638348312965
-        ]
+        "coordinates": [116.06987259986799, -8.78638348312965]
       },
       "properties": {
         "Nama_Lokasi": "Desa Cendi Manik",
@@ -455,10 +380,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.14825359212648,
-          -8.555425192758193
-        ]
+        "coordinates": [116.14825359212648, -8.555425192758193]
       },
       "properties": {
         "Nama_Lokasi": "Desa Dasan Geria",
@@ -473,10 +395,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.17630292863296,
-          -8.587043916884909
-        ]
+        "coordinates": [116.17630292863296, -8.587043916884909]
       },
       "properties": {
         "Nama_Lokasi": "Desa Gegelang",
@@ -491,10 +410,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.13451083826747,
-          -8.522100005946301
-        ]
+        "coordinates": [116.13451083826747, -8.522100005946301]
       },
       "properties": {
         "Nama_Lokasi": "Desa Gelangsar",
@@ -509,10 +425,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.91993748781285,
-          -8.745654107852081
-        ]
+        "coordinates": [115.91993748781285, -8.745654107852081]
       },
       "properties": {
         "Nama_Lokasi": "Desa Gili Gede Indah",
@@ -527,10 +440,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.16802335844021,
-          -8.534335195406303
-        ]
+        "coordinates": [116.16802335844021, -8.534335195406303]
       },
       "properties": {
         "Nama_Lokasi": "Desa Giri Madia",
@@ -545,10 +455,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1760148351893,
-          -8.708147948168547
-        ]
+        "coordinates": [116.1760148351893, -8.708147948168547]
       },
       "properties": {
         "Nama_Lokasi": "Desa Giri Sasak",
@@ -563,10 +470,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.12181907469375,
-          -8.694959987926858
-        ]
+        "coordinates": [116.12181907469375, -8.694959987926858]
       },
       "properties": {
         "Nama_Lokasi": "Desa Giri Tembesi",
@@ -581,10 +485,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.2359,
-          -8.5928
-        ]
+        "coordinates": [116.23589262424738, -8.592872293545842]
       },
       "properties": {
         "Nama_Lokasi": "Desa Golong",
@@ -599,10 +500,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.123,
-          -8.521
-        ]
+        "coordinates": [116.12253307408774, -8.53159662233083]
       },
       "properties": {
         "Nama_Lokasi": "Desa Guntur Macan",
@@ -617,10 +515,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.085,
-          -8.552
-        ]
+        "coordinates": [116.09024665570502, -8.552835507487515]
       },
       "properties": {
         "Nama_Lokasi": "Desa Jatisela",
@@ -635,10 +530,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1787,
-          -8.5606
-        ]
+        "coordinates": [116.1787186303072, -8.560587760475899]
       },
       "properties": {
         "Nama_Lokasi": "Desa Karang Bayan",
@@ -653,10 +545,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0828,
-          -8.6681
-        ]
+        "coordinates": [116.0948647518028, -8.686312420133632]
       },
       "properties": {
         "Nama_Lokasi": "Desa Kebon Ayu",
@@ -671,10 +560,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1639,
-          -8.6394
-        ]
+        "coordinates": [116.15404932271777, -8.634754181612069]
       },
       "properties": {
         "Nama_Lokasi": "Desa Kediri",
@@ -689,10 +575,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.107,
-          -8.493
-        ]
+        "coordinates": [116.1005895639298, -8.519089005078458]
       },
       "properties": {
         "Nama_Lokasi": "Desa Kekait",
@@ -707,10 +590,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0875,
-          -8.6425
-        ]
+        "coordinates": [116.08152398894788, -8.635999255506773]
       },
       "properties": {
         "Nama_Lokasi": "Desa Kuranji",
@@ -725,10 +605,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0731,
-          -8.6313
-        ]
+        "coordinates": [116.08152398894788, -8.635999255506773]
       },
       "properties": {
         "Nama_Lokasi": "Desa Kuranji Dalang",
@@ -743,10 +620,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1625,
-          -8.6842
-        ]
+        "coordinates": [116.16466560054846, -8.674663688684982]
       },
       "properties": {
         "Nama_Lokasi": "Desa Kuripan Induk",
@@ -761,10 +635,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.165,
-          -8.701
-        ]
+        "coordinates": [116.16853088807676, -8.682249507146002]
       },
       "properties": {
         "Nama_Lokasi": "Desa Kuripan Selatan",
@@ -779,28 +650,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.165,
-          -8.701
-        ]
-      },
-      "properties": {
-        "Nama_Lokasi": "Desa Kuripan Selatan (2)",
-        "Jenis_Wisata": "Admin-commemorative",
-        "Kategori": "Admin-commemorative",
-        "Lokasi_Detail": "Kuripan",
-        "Deskripsi_ID": "Eksplorasi Desa Kuripan Selatan (2) yang menyuguhkan perpaduan budaya lokal dan keindahan alam pedesaan. [Info: Duplicate entry in source register — same designation as #43; ditetapkan secara resmi.]",
-        "Deskripsi_EN": "Explore Desa Kuripan Selatan (2) village which offers a blend of local culture and rural natural beauty. [Additional Info: Duplicate entry in source register — same designation as #43; formally designated.]"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          116.174,
-          -8.526
-        ]
+        "coordinates": [116.16367635137038, -8.557383718154068]
       },
       "properties": {
         "Nama_Lokasi": "Desa Langko",
@@ -815,10 +665,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.287,
-          -8.516
-        ]
+        "coordinates": [116.2684731420884, -8.546020207995735]
       },
       "properties": {
         "Nama_Lokasi": "Desa Lembah Sempage",
@@ -833,10 +680,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0719,
-          -8.6998
-        ]
+        "coordinates": [116.07198518844213, -8.699831491295981]
       },
       "properties": {
         "Nama_Lokasi": "Desa Lembar",
@@ -851,10 +695,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0728,
-          -8.7193
-        ]
+        "coordinates": [116.0728355882211, -8.719322535315413]
       },
       "properties": {
         "Nama_Lokasi": "Desa Lembar Selatan",
@@ -869,10 +710,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1156,
-          -8.7731
-        ]
+        "coordinates": [116.11562254497217, -8.773057213692198]
       },
       "properties": {
         "Nama_Lokasi": "Desa Mareje Timur",
@@ -887,10 +725,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1139,
-          -8.4958
-        ]
+        "coordinates": [116.14250430228506, -8.531406479530412]
       },
       "properties": {
         "Nama_Lokasi": "Desa Mekarsari",
@@ -905,10 +740,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1139,
-          -8.4958
-        ]
+        "coordinates": [116.16677360866862, -8.60433455721612]
       },
       "properties": {
         "Nama_Lokasi": "Desa Mekarsari",
@@ -923,10 +755,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.076,
-          -8.546
-        ]
+        "coordinates": [116.07160815525778, -8.541424966584573]
       },
       "properties": {
         "Nama_Lokasi": "Desa Meninting",
@@ -941,10 +770,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.115,
-          -8.553
-        ]
+        "coordinates": [116.11075364313963, -8.552655512255601]
       },
       "properties": {
         "Nama_Lokasi": "Desa Midang",
@@ -959,10 +785,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.2049,
-          -8.5938
-        ]
+        "coordinates": [116.20497166894646, -8.593752382938353]
       },
       "properties": {
         "Nama_Lokasi": "Desa Narmada",
@@ -977,10 +800,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.192,
-          -8.59
-        ]
+        "coordinates": [116.19031469583538, -8.589935204299582]
       },
       "properties": {
         "Nama_Lokasi": "Desa Nyurlembang",
@@ -995,10 +815,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.2675,
-          -8.5351
-        ]
+        "coordinates": [116.26743698419405, -8.535339507955392]
       },
       "properties": {
         "Nama_Lokasi": "Desa Pakuan",
@@ -1013,10 +830,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.9291,
-          -8.7837
-        ]
+        "coordinates": [115.9291, -8.7837]
       },
       "properties": {
         "Nama_Lokasi": "Desa Pelangan",
@@ -1031,10 +845,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.168,
-          -8.497
-        ]
+        "coordinates": [115.92908408035953, -8.783744522144229]
       },
       "properties": {
         "Nama_Lokasi": "Desa Penimbung",
@@ -1049,10 +860,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0832,
-          -8.4653
-        ]
+        "coordinates": [116.09402144082168, -8.488885424595983]
       },
       "properties": {
         "Nama_Lokasi": "Desa Pusuk Lestari",
@@ -1067,10 +875,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1812,
-          -8.5665
-        ]
+        "coordinates": [116.17929409382619, -8.56727506410674]
       },
       "properties": {
         "Nama_Lokasi": "Desa Sari Baya",
@@ -1085,10 +890,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.283,
-          -8.548
-        ]
+        "coordinates": [116.25850905967083, -8.568462148509921]
       },
       "properties": {
         "Nama_Lokasi": "Desa Sedau",
@@ -1103,10 +905,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0083,
-          -8.7519
-        ]
+        "coordinates": [116.0084047069432, -8.75180990242189]
       },
       "properties": {
         "Nama_Lokasi": "Desa Sekotong Barat",
@@ -1121,10 +920,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0342,
-          -8.8239
-        ]
+        "coordinates": [116.0475268759835, -8.774742592816283]
       },
       "properties": {
         "Nama_Lokasi": "Desa Sekotong Tengah",
@@ -1139,10 +935,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0389,
-          -8.4753
-        ]
+        "coordinates": [116.04084002266048, -8.487782814194812]
       },
       "properties": {
         "Nama_Lokasi": "Desa Senggigi",
@@ -1157,10 +950,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.077,
-          -8.534
-        ]
+        "coordinates": [116.07288314624486, -8.539103802948706]
       },
       "properties": {
         "Nama_Lokasi": "Desa Senteluk",
@@ -1175,10 +965,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.275,
-          -8.487
-        ]
+        "coordinates": [116.24433323723491, -8.5415386167623]
       },
       "properties": {
         "Nama_Lokasi": "Desa Sesaot",
@@ -1193,10 +980,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.096,
-          -8.552
-        ]
+        "coordinates": [116.09830751871937, -8.554027205849211]
       },
       "properties": {
         "Nama_Lokasi": "Desa Sesela",
@@ -1211,10 +995,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.24,
-          -8.564
-        ]
+        "coordinates": [116.23052604820654, -8.568069451270203]
       },
       "properties": {
         "Nama_Lokasi": "Desa Suranadi",
@@ -1229,10 +1010,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0864,
-          -8.6569
-        ]
+        "coordinates": [116.0863610083237, -8.656956536203259]
       },
       "properties": {
         "Nama_Lokasi": "Desa Taman Ayu",
@@ -1247,10 +1025,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1454,
-          -8.7019
-        ]
+        "coordinates": [116.14535655122103, -8.701935678568654]
       },
       "properties": {
         "Nama_Lokasi": "Desa Tempos",
@@ -1265,10 +1040,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.85,
-          -8.8167
-        ]
+        "coordinates": [115.84019089551244, -8.727405020519027]
       },
       "properties": {
         "Nama_Lokasi": "Desert Point",
@@ -1283,10 +1055,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.9189,
-          -8.7383
-        ]
+        "coordinates": [115.9662335638715, -8.730468030865055]
       },
       "properties": {
         "Nama_Lokasi": "Elak-Elak",
@@ -1301,10 +1070,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0667,
-          -8.7417
-        ]
+        "coordinates": [116.0667, -8.7417]
       },
       "properties": {
         "Nama_Lokasi": "Embung Kedaro",
@@ -1319,10 +1085,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.8869,
-          -8.7381
-        ]
+        "coordinates": [115.88828425945252, -8.740850741341795]
       },
       "properties": {
         "Nama_Lokasi": "Gili Asahan",
@@ -1337,10 +1100,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.9281,
-          -8.7486
-        ]
+        "coordinates": [115.92285908036743, -8.740142127159865]
       },
       "properties": {
         "Nama_Lokasi": "Gili Gede",
@@ -1355,10 +1115,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.9255,
-          -8.7355
-        ]
+        "coordinates": [115.96671817781373, -8.726895671876724]
       },
       "properties": {
         "Nama_Lokasi": "Gili Genting",
@@ -1373,10 +1130,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.9185,
-          -8.7245
-        ]
+        "coordinates": [115.89117742428462, -8.748420529809245]
       },
       "properties": {
         "Nama_Lokasi": "Gili Goleng",
@@ -1391,10 +1145,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0256,
-          -8.7308
-        ]
+        "coordinates": [116.02553638806641, -8.730586245650809]
       },
       "properties": {
         "Nama_Lokasi": "Gili Kedis",
@@ -1409,10 +1160,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.9101,
-          -8.729
-        ]
+        "coordinates": [115.90563211372847, -8.726752544419321]
       },
       "properties": {
         "Nama_Lokasi": "Gili Layar",
@@ -1427,10 +1175,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.9355,
-          -8.7455
-        ]
+        "coordinates": [115.9613425523519, -8.722218820640826]
       },
       "properties": {
         "Nama_Lokasi": "Gili Lontar",
@@ -1445,17 +1190,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.064,
-          -8.7414
-        ]
+        "coordinates": [116.06444456399484, -8.741647375775655]
       },
       "properties": {
         "Nama_Lokasi": "Gili Mas",
         "Jenis_Wisata": "Descriptive-natural",
         "Kategori": "Descriptive-natural",
         "Lokasi_Detail": "Mareje Timur, Lembar",
-        "Deskripsi_ID": "Eksotisme pulau Gili Mas dengan air laut kristal dan keindahan bawah laut yang menawan. [Info: Gili + Mas (Melayu/ID: 'gold'); descriptive-natural nama warna/nilai — pulau yang dinamai berdasarkan pasir keemasan atau tampilan cahaya keemasannya.]",
+        "Deskripsi_ID": "Pelabuhan Gili Mas. [Info: Gili + Mas (Melayu/ID: 'gold'); descriptive-natural nama warna/nilai — pulau yang dinamai berdasarkan pasir keemasan atau tampilan cahaya keemasannya.]",
         "Deskripsi_EN": "The exoticism of Gili Mas island with crystal clear waters and captivating underwater beauty. [Additional Info: Gili + Mas (Malay/ID: 'gold'); descriptive-natural colour/value name — the island named for its golden-sand or golden-light appearance.]"
       }
     },
@@ -1463,10 +1205,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0106,
-          -8.7193
-        ]
+        "coordinates": [116.00833084367461, -8.717778943952776]
       },
       "properties": {
         "Nama_Lokasi": "Gili Nanggu",
@@ -1481,10 +1220,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0055,
-          -8.7395
-        ]
+        "coordinates": [115.97576321337527, -8.707598455959916]
       },
       "properties": {
         "Nama_Lokasi": "Gili Poh",
@@ -1499,10 +1235,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.9015,
-          -8.7215
-        ]
+        "coordinates": [115.91539149755172, -8.717694564257775]
       },
       "properties": {
         "Nama_Lokasi": "Gili Rengit",
@@ -1517,10 +1250,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0315,
-          -8.7235
-        ]
+        "coordinates": [116.02417897138615, -8.724723533796833]
       },
       "properties": {
         "Nama_Lokasi": "Gili Sudak",
@@ -1535,10 +1265,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0195,
-          -8.7258
-        ]
+        "coordinates": [116.01388145870953, -8.723889153433763]
       },
       "properties": {
         "Nama_Lokasi": "Gili Tangkong",
@@ -1553,10 +1280,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.2167,
-          -8.6167
-        ]
+        "coordinates": [116.2167, -8.6167]
       },
       "properties": {
         "Nama_Lokasi": "Goa Alam Raksasa",
@@ -1571,10 +1295,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.2333,
-          -8.5833
-        ]
+        "coordinates": [116.27665718295633, -8.5397507474385]
       },
       "properties": {
         "Nama_Lokasi": "Goa Lembah Sempage",
@@ -1589,10 +1310,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.9167,
-          -8.8
-        ]
+        "coordinates": [115.9167, -8.8]
       },
       "properties": {
         "Nama_Lokasi": "Gua Jepang Labuan Poh",
@@ -1607,10 +1325,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.2333,
-          -8.6167
-        ]
+        "coordinates": [116.26204306631618, -8.570358359647917]
       },
       "properties": {
         "Nama_Lokasi": "Gunung Jae",
@@ -1625,10 +1340,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1167,
-          -8.65
-        ]
+        "coordinates": [116.08617515674068, -8.641356954573071]
       },
       "properties": {
         "Nama_Lokasi": "Gunung Pengsong",
@@ -1643,10 +1355,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.176,
-          -8.7082
-        ]
+        "coordinates": [116.16192485906849, -8.699127122423139]
       },
       "properties": {
         "Nama_Lokasi": "Gunung Sasak",
@@ -1661,10 +1370,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1167,
-          -8.4833
-        ]
+        "coordinates": [116.08412051027045, -8.465276993477124]
       },
       "properties": {
         "Nama_Lokasi": "Hutan Wisata Pusuk",
@@ -1679,10 +1385,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.2167,
-          -8.5833
-        ]
+        "coordinates": [116.2441645380382, -8.54004346629823]
       },
       "properties": {
         "Nama_Lokasi": "Hutan Wisata Sesaot",
@@ -1697,10 +1400,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.2,
-          -8.5833
-        ]
+        "coordinates": [116.23258547290547, -8.569564710532653]
       },
       "properties": {
         "Nama_Lokasi": "Hutan Wisata Suranadi",
@@ -1715,10 +1415,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.19,
-          -8.5286
-        ]
+        "coordinates": [116.18784106961337, -8.557200389380984]
       },
       "properties": {
         "Nama_Lokasi": "Karang Bayan",
@@ -1733,10 +1430,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0828,
-          -8.6681
-        ]
+        "coordinates": [116.10448893615701, -8.693421002492814]
       },
       "properties": {
         "Nama_Lokasi": "Kebun Melon",
@@ -1751,10 +1445,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0351,
-          -8.4852
-        ]
+        "coordinates": [116.03473446268957, -8.48499470238747]
       },
       "properties": {
         "Nama_Lokasi": "Kerandangan",
@@ -1769,10 +1460,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1495,
-          -8.6352
-        ]
+        "coordinates": [116.09542491002759, -8.646615550685814]
       },
       "properties": {
         "Nama_Lokasi": "Kokok Babak Kediri",
@@ -1787,10 +1475,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0606,
-          -8.5163
-        ]
+        "coordinates": [116.06048552097279, -8.516454486170304]
       },
       "properties": {
         "Nama_Lokasi": "Makam Batulayar",
@@ -1805,10 +1490,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0833,
-          -8.6333
-        ]
+        "coordinates": [116.07303074485894, -8.636396647765693]
       },
       "properties": {
         "Nama_Lokasi": "Makam Ilham",
@@ -1823,10 +1505,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0333,
-          -8.7833
-        ]
+        "coordinates": [116.02955307595697, -8.843831334083982]
       },
       "properties": {
         "Nama_Lokasi": "Makam Keramat",
@@ -1841,10 +1520,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0667,
-          -8.7167
-        ]
+        "coordinates": [116.05760036086045, -8.737358701353235]
       },
       "properties": {
         "Nama_Lokasi": "Makam Keramat Cemare",
@@ -1859,10 +1535,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1281,
-          -8.5495
-        ]
+        "coordinates": [116.12737605258326, -8.545833088419663]
       },
       "properties": {
         "Nama_Lokasi": "Makam Mambalan",
@@ -1877,10 +1550,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.05,
-          -8.7333
-        ]
+        "coordinates": [116.05234139383036, -8.76623269477796]
       },
       "properties": {
         "Nama_Lokasi": "Mangrove Bagek Kembar",
@@ -1895,10 +1565,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0667,
-          -8.75
-        ]
+        "coordinates": [116.04681066499452, -8.76423299483694]
       },
       "properties": {
         "Nama_Lokasi": "Mangrove Tanjung Batu",
@@ -1913,10 +1580,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.19,
-          -8.5286
-        ]
+        "coordinates": [116.18785277806187, -8.557185994656752]
       },
       "properties": {
         "Nama_Lokasi": "Masjid Kuno Karang Bayan",
@@ -1931,10 +1595,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1833,
-          -8.55
-        ]
+        "coordinates": [116.20629543503425, -8.564872500583537]
       },
       "properties": {
         "Nama_Lokasi": "Mata Air Manggong",
@@ -1949,10 +1610,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.2359,
-          -8.5928
-        ]
+        "coordinates": [116.24082899382643, -8.579203600239145]
       },
       "properties": {
         "Nama_Lokasi": "Padang Golf Golong",
@@ -1967,10 +1625,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0833,
-          -8.9167
-        ]
+        "coordinates": [116.05402355498933, -8.85112401438383]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Bange",
@@ -1985,10 +1640,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0582,
-          -8.7207
-        ]
+        "coordinates": [116.05821227060594, -8.720740360453831]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Cemare",
@@ -2003,10 +1655,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0515,
-          -8.5045
-        ]
+        "coordinates": [116.05996909521207, -8.513155617688106]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Duduk",
@@ -2021,10 +1670,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.065,
-          -8.695
-        ]
+        "coordinates": [116.07109419836713, -8.673725306345027]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Induk",
@@ -2039,10 +1685,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0655,
-          -8.6485
-        ]
+        "coordinates": [116.07214930704993, -8.636087173257696]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Kuranji Dalang",
@@ -2057,10 +1700,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.045,
-          -8.505
-        ]
+        "coordinates": [116.05187174678338, -8.502428852095395]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Loco",
@@ -2075,10 +1715,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.04,
-          -8.52
-        ]
+        "coordinates": [116.03641870198089, -8.48340723962344]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Mangsit",
@@ -2093,10 +1730,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.9214,
-          -8.8811
-        ]
+        "coordinates": [115.92963449694484, -8.831753094879275]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Mekaki",
@@ -2111,10 +1745,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.076,
-          -8.546
-        ]
+        "coordinates": [116.06989348320167, -8.553209613335271]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Meninting",
@@ -2129,10 +1760,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0996,
-          -8.7485
-        ]
+        "coordinates": [116.10380633616067, -8.869167890622391]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Nambung",
@@ -2147,10 +1775,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.05,
-          -8.925
-        ]
+        "coordinates": [115.98256715137981, -8.88118211532069]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Orong Bukal",
@@ -2165,10 +1790,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0447,
-          -8.4952
-        ]
+        "coordinates": [116.04537759958762, -8.498617816183836]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Senggigi",
@@ -2183,10 +1805,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0386,
-          -8.9144
-        ]
+        "coordinates": [116.05407839379438, -8.851140318687115]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Sepi",
@@ -2201,10 +1820,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0635,
-          -8.5345
-        ]
+        "coordinates": [116.06825993112405, -8.537873472737676]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Tanjung Bias",
@@ -2219,10 +1835,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.085,
-          -8.655
-        ]
+        "coordinates": [116.06994670476747, -8.648857342546089]
       },
       "properties": {
         "Nama_Lokasi": "Pantai Uringin",
@@ -2237,10 +1850,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.945,
-          -8.765
-        ]
+        "coordinates": [115.87701618160526, -8.75884284508683]
       },
       "properties": {
         "Nama_Lokasi": "Pao-Pao",
@@ -2255,10 +1865,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.096,
-          -8.552
-        ]
+        "coordinates": [116.09915719746937, -8.553189809726657]
       },
       "properties": {
         "Nama_Lokasi": "Pasar Seni Sesela",
@@ -2273,10 +1880,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0691,
-          -8.7176
-        ]
+        "coordinates": [116.07342872774757, -8.729240897086479]
       },
       "properties": {
         "Nama_Lokasi": "Pelabuhan Lembar",
@@ -2291,10 +1895,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1115,
-          -8.545
-        ]
+        "coordinates": [116.11157120238015, -8.545123859371518]
       },
       "properties": {
         "Nama_Lokasi": "Pura Agung",
@@ -2309,10 +1910,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1005,
-          -8.577
-        ]
+        "coordinates": [116.05695747450974, -8.509347962156472]
       },
       "properties": {
         "Nama_Lokasi": "Pura Batu Bolong",
@@ -2327,10 +1925,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.1801,
-          -8.5758
-        ]
+        "coordinates": [116.18109960180583, -8.57588695940584]
       },
       "properties": {
         "Nama_Lokasi": "Pura Lingsar",
@@ -2345,10 +1940,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.2442,
-          -8.5417
-        ]
+        "coordinates": [116.24423904724293, -8.540272672949989]
       },
       "properties": {
         "Nama_Lokasi": "Purekmas Sesaot",
@@ -2363,10 +1955,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0944,
-          -8.489
-        ]
+        "coordinates": [116.0841818701326, -8.465208642622107]
       },
       "properties": {
         "Nama_Lokasi": "Pusuk Lestari",
@@ -2381,10 +1970,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.215,
-          -8.585
-        ]
+        "coordinates": [116.2083994763147, -8.593514124956934]
       },
       "properties": {
         "Nama_Lokasi": "Taman Gandari Kawari",
@@ -2399,10 +1985,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0927,
-          -8.5292
-        ]
+        "coordinates": [116.09169637189734, -8.51504757243342]
       },
       "properties": {
         "Nama_Lokasi": "Taman Langit",
@@ -2417,10 +2000,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.2167,
-          -8.5861
-        ]
+        "coordinates": [116.2043895989884, -8.59538591856691]
       },
       "properties": {
         "Nama_Lokasi": "Taman Narmada",
@@ -2435,10 +2015,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.24,
-          -8.564
-        ]
+        "coordinates": [116.23311614062173, -8.570912643709912]
       },
       "properties": {
         "Nama_Lokasi": "Taman Suranadi",
@@ -2453,10 +2030,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.0267,
-          -8.7401
-        ]
+        "coordinates": [116.02641947233744, -8.740377567641792]
       },
       "properties": {
         "Nama_Lokasi": "Tanjung Kelor",
@@ -2471,10 +2045,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.9895,
-          -8.7385
-        ]
+        "coordinates": [116.00951204809812, -8.751674613024148]
       },
       "properties": {
         "Nama_Lokasi": "Tawun",
@@ -2489,10 +2060,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          116.125,
-          -8.755
-        ]
+        "coordinates": [116.13285745812054, -8.767478956092896]
       },
       "properties": {
         "Nama_Lokasi": "Telaga Pandan Wangi",
@@ -2507,10 +2075,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          115.9418,
-          -8.7672
-        ]
+        "coordinates": [115.93664174345177, -8.766937292672404]
       },
       "properties": {
         "Nama_Lokasi": "Tembowong",
