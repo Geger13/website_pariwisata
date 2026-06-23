@@ -2502,6 +2502,1068 @@
         "Deskripsi_ID": "Objek wisata Tembowong yang menyuguhkan daya tarik alam dan budaya khas Lombok Barat. [Info: Tembowong (Sasak: kemungkinan dari tembong 'to appear/emerge' atau buwong 'sebuah spring/water hole that surfaces'); nama hidrologis morpho-geographic — sumber air alami yang muncul dari tanah.]",
         "Deskripsi_EN": "The Tembowong tourism destination showcasing the natural and cultural charm of West Lombok. [Additional Info: Tembowong (Sasak: possibly from tembong 'to appear/emerge' or buwong 'a spring/water hole that surfaces'); morpho-geographic hydrological name — a natural water source that emerges from the ground.]"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3809577,
+          -8.9110513
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Taman Wisata Alam Gunung Tunak",
+        "Jenis_Wisata": "Taman Alam / Konservasi",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Bungbang Pantai, Lombok Tengah",
+        "Deskripsi_ID": "Objek wisata Taman Wisata Alam Gunung Tunak yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Taman Wisata Alam Gunung Tunak tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3190063,
+          -8.9139299
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Bukit Merese",
+        "Jenis_Wisata": "Bukit / Panorama",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Sengkol, Pujut",
+        "Deskripsi_ID": "Objek wisata Bukit Merese yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Bukit Merese tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3100968,
+          -8.576295
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Wisata Lantan",
+        "Jenis_Wisata": "Desa Wisata",
+        "Kategori": "Ethno-cultural",
+        "Lokasi_Detail": "Lantan, Batukliang Utara",
+        "Deskripsi_ID": "Desa wisata Desa Wisata Lantan yang menawarkan keasrian alam dan kearifan lokal Sasak.",
+        "Deskripsi_EN": "The tourism village of Desa Wisata Lantan offering natural beauty and Sasak local wisdom."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.219784,
+          -8.6473054
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Wisata Nostalgia Bonjeruk",
+        "Jenis_Wisata": "Desa Wisata",
+        "Kategori": "Ethno-cultural",
+        "Lokasi_Detail": "Bonjeruk, Jonggat",
+        "Deskripsi_ID": "Desa wisata Desa Wisata Nostalgia Bonjeruk yang menawarkan keasrian alam dan kearifan lokal Sasak.",
+        "Deskripsi_EN": "The tourism village of Desa Wisata Nostalgia Bonjeruk offering natural beauty and Sasak local wisdom."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1898667,
+          -8.6205413
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Wisata Alam Taman Lembah Gardena",
+        "Jenis_Wisata": "Wisata Alam",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Bilebante, Jonggat",
+        "Deskripsi_ID": "Objek wisata Wisata Alam Taman Lembah Gardena yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Wisata Alam Taman Lembah Gardena tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1865365,
+          -8.6204643
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "DWH (Tourism Village Green) Bilebante",
+        "Jenis_Wisata": "Desa Wisata",
+        "Kategori": "Ethno-cultural",
+        "Lokasi_Detail": "Bilebante, Jonggat",
+        "Deskripsi_ID": "Desa wisata DWH (Tourism Village Green) Bilebante yang menawarkan keasrian alam dan kearifan lokal Sasak.",
+        "Deskripsi_EN": "The tourism village of DWH (Tourism Village Green) Bilebante offering natural beauty and Sasak local wisdom."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3282717,
+          -8.538434
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "TITISAN DEWI ANJANI",
+        "Jenis_Wisata": "Wisata Alam / Religi",
+        "Kategori": "Ethno-cultural",
+        "Lokasi_Detail": "Pemotoh, Batukliang Utara",
+        "Deskripsi_ID": "Objek wisata TITISAN DEWI ANJANI yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The TITISAN DEWI ANJANI tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3413827,
+          -8.533019
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Benang Stokel & Benang Kelambu Waterfall",
+        "Jenis_Wisata": "Air Terjun",
+        "Kategori": "Morpho-geographic",
+        "Lokasi_Detail": "Pemotoh, Batukliang Utara",
+        "Deskripsi_ID": "Keindahan air terjun alami Benang Stokel & Benang Kelambu Waterfall yang menawarkan keasrian alam dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The beauty of the natural Benang Stokel & Benang Kelambu Waterfall waterfall offering natural beauty and a tranquil atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3113125,
+          -8.5289375
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Blue Lake Central Lombok",
+        "Jenis_Wisata": "Danau / Spot Foto",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Lainnya, Lombok Tengah",
+        "Deskripsi_ID": "Objek wisata Blue Lake Central Lombok yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Blue Lake Central Lombok tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2805756,
+          -8.7459514
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Savana Bale Tepak",
+        "Jenis_Wisata": "Savana / Alam Terbuka",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Lajut, Praya Tengah",
+        "Deskripsi_ID": "Objek wisata Savana Bale Tepak yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Savana Bale Tepak tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1872683,
+          -8.6199236
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pancingan Market",
+        "Jenis_Wisata": "Wisata Kuliner / Pasar",
+        "Kategori": "Ethno-cultural",
+        "Lokasi_Detail": "Bilebante, Jonggat",
+        "Deskripsi_ID": "Objek wisata Pancingan Market yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Pancingan Market tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2580072,
+          -8.7356023
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Bendungan Batujai",
+        "Jenis_Wisata": "Bendungan / Waduk",
+        "Kategori": "Admin-commemorative",
+        "Lokasi_Detail": "Batujai, Praya Barat",
+        "Deskripsi_ID": "Objek wisata Bendungan Batujai yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Bendungan Batujai tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3749243,
+          -8.5913311
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Wisata Tandung-Andung",
+        "Jenis_Wisata": "Wisata Alam",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Lendang Ara, Kopang",
+        "Deskripsi_ID": "Objek wisata Wisata Tandung-Andung yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Wisata Tandung-Andung tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.289603,
+          -8.5818331
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Wisata Alam HoneyMoon",
+        "Jenis_Wisata": "Wisata Alam",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Tanak Beak, Batukliang",
+        "Deskripsi_ID": "Objek wisata Wisata Alam HoneyMoon yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Wisata Alam HoneyMoon tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4148926,
+          -8.6945077
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Wahana Edukasi Jabal Rahmah",
+        "Jenis_Wisata": "Edukasi / Religi",
+        "Kategori": "Ethno-cultural",
+        "Lokasi_Detail": "Jango, Janapria",
+        "Deskripsi_ID": "Objek wisata Wahana Edukasi Jabal Rahmah yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Wahana Edukasi Jabal Rahmah tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3318912,
+          -8.54587
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Air Terjun Babak Pelangi",
+        "Jenis_Wisata": "Air Terjun",
+        "Kategori": "Morpho-geographic",
+        "Lokasi_Detail": "Pemotoh, Batukliang Utara",
+        "Deskripsi_ID": "Keindahan air terjun alami Air Terjun Babak Pelangi yang menawarkan keasrian alam dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The beauty of the natural Air Terjun Babak Pelangi waterfall offering natural beauty and a tranquil atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2497537,
+          -8.6940034
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Politeknik Pariwisata Lombok",
+        "Jenis_Wisata": "Pendidikan",
+        "Kategori": "Ethno-cultural",
+        "Lokasi_Detail": "Puyung, Jonggat",
+        "Deskripsi_ID": "Objek wisata Politeknik Pariwisata Lombok yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Politeknik Pariwisata Lombok tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2516768,
+          -8.845777
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Ecowisata Gunung Bonga",
+        "Jenis_Wisata": "Ekowisata",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Penyengat, Pujut",
+        "Deskripsi_ID": "Objek wisata Ecowisata Gunung Bonga yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Ecowisata Gunung Bonga tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2335085,
+          -8.7693429
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Bukit Balibe",
+        "Jenis_Wisata": "Bukit",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Bonder, Praya Barat",
+        "Deskripsi_ID": "Objek wisata Bukit Balibe yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Bukit Balibe tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3574263,
+          -8.6349336
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Longtun Waterpark Kopang",
+        "Jenis_Wisata": "Waterpark",
+        "Kategori": "Admin-commemorative",
+        "Lokasi_Detail": "Kopang Rembiga, Kopang",
+        "Deskripsi_ID": "Objek wisata Longtun Waterpark Kopang yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Longtun Waterpark Kopang tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3515848,
+          -8.5833147
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Wisata Kebun Jeruk",
+        "Jenis_Wisata": "Agrowisata",
+        "Kategori": "Ethno-cultural",
+        "Lokasi_Detail": "Mas-Mas, Kopang",
+        "Deskripsi_ID": "Objek wisata Wisata Kebun Jeruk yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Wisata Kebun Jeruk tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3282764,
+          -8.8640074
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Bukit Menangis",
+        "Jenis_Wisata": "Bukit / Panorama",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Kuta, Pujut",
+        "Deskripsi_ID": "Objek wisata Bukit Menangis yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Bukit Menangis tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3432995,
+          -8.9093503
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gerupuk Beach",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Kuta, Pujut",
+        "Deskripsi_ID": "Pantai Gerupuk Beach yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Gerupuk Beach beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2937687,
+          -8.8213125
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Traditional Kampung Ende",
+        "Jenis_Wisata": "Wisata Budaya",
+        "Kategori": "Ethno-cultural",
+        "Lokasi_Detail": "Kecamatan Pujut, Lombok Tengah",
+        "Deskripsi_ID": "Objek wisata Traditional Kampung Ende yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Traditional Kampung Ende tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2636575,
+          -8.5744707
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Wisata Desa Sedau",
+        "Jenis_Wisata": "Desa Wisata",
+        "Kategori": "Ethno-cultural",
+        "Lokasi_Detail": "Peresak, Narmada",
+        "Deskripsi_ID": "Desa wisata Wisata Desa Sedau yang menawarkan keasrian alam dan kearifan lokal Sasak.",
+        "Deskripsi_EN": "The tourism village of Wisata Desa Sedau offering natural beauty and Sasak local wisdom."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3111957,
+          -8.6878281
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Air Terjun Tenjong",
+        "Jenis_Wisata": "Air Terjun",
+        "Kategori": "Morpho-geographic",
+        "Lokasi_Detail": "Monggas, Kopang",
+        "Deskripsi_ID": "Keindahan air terjun alami Air Terjun Tenjong yang menawarkan keasrian alam dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The beauty of the natural Air Terjun Tenjong waterfall offering natural beauty and a tranquil atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3497474,
+          -8.617979
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Bukit Selow",
+        "Jenis_Wisata": "Bukit",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Bebuak, Kopang",
+        "Deskripsi_ID": "Objek wisata Bukit Selow yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Bukit Selow tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0582094,
+          -8.7207419
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Cemare Lembar",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Lembar Selatan, Lembar",
+        "Deskripsi_ID": "Pantai Pantai Cemare Lembar yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Pantai Cemare Lembar beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2286772,
+          -8.6050327
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Sintung Park",
+        "Jenis_Wisata": "Taman Rekreasi",
+        "Kategori": "Admin-commemorative",
+        "Lokasi_Detail": "Sintung, Pringgarata",
+        "Deskripsi_ID": "Objek wisata Sintung Park yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Sintung Park tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2970394,
+          -8.907198
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Seger Kuta Lombok",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Sengkol, Pujut",
+        "Deskripsi_ID": "Pantai Pantai Seger Kuta Lombok yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Pantai Seger Kuta Lombok beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3288403,
+          -8.9096316
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Bukit Seger Sirkuit Mandalika",
+        "Jenis_Wisata": "Bukit / Panorama",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Sengkol, Pujut",
+        "Deskripsi_ID": "Objek wisata Bukit Seger Sirkuit Mandalika yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Bukit Seger Sirkuit Mandalika tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2919871,
+          -8.8393082
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Sade Village",
+        "Jenis_Wisata": "Desa Adat",
+        "Kategori": "Ethno-cultural",
+        "Lokasi_Detail": "Sengkol, Pujut",
+        "Deskripsi_ID": "Desa wisata Sade Village yang menawarkan keasrian alam dan kearifan lokal Sasak.",
+        "Deskripsi_EN": "The tourism village of Sade Village offering natural beauty and Sasak local wisdom."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2793101,
+          -8.5602514
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Lembah Datu Camping Ground",
+        "Jenis_Wisata": "Camping Ground",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Karang Sidemen, Batukliang Utara",
+        "Deskripsi_ID": "Objek wisata Lembah Datu Camping Ground yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Lembah Datu Camping Ground tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2526094,
+          -8.9036875
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Tebuak",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Kuta, Pujut",
+        "Deskripsi_ID": "Pantai Pantai Tebuak yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Pantai Tebuak beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2547365,
+          -8.8866277
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Goa Bangkang Prabu",
+        "Jenis_Wisata": "Goa / Alam",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Kuta, Pujut",
+        "Deskripsi_ID": "Objek wisata Goa Bangkang Prabu yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Goa Bangkang Prabu tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.299562,
+          -8.9078631
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Bukit Seger",
+        "Jenis_Wisata": "Bukit",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Sengkol, Pujut",
+        "Deskripsi_ID": "Objek wisata Bukit Seger yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Bukit Seger tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3766947,
+          -8.5605615
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Desa Wisata Aik Bual",
+        "Jenis_Wisata": "Desa Wisata",
+        "Kategori": "Ethno-cultural",
+        "Lokasi_Detail": "Aik Bual, Kopang",
+        "Deskripsi_ID": "Desa wisata Desa Wisata Aik Bual yang menawarkan keasrian alam dan kearifan lokal Sasak.",
+        "Deskripsi_EN": "The tourism village of Desa Wisata Aik Bual offering natural beauty and Sasak local wisdom."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3494842,
+          -8.9268754
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Bloam Gerupuk Beach",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Sengkol, Pujut",
+        "Deskripsi_ID": "Pantai Bloam Gerupuk Beach yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Bloam Gerupuk Beach beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3716494,
+          -8.942414
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Teluk Ujung",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Bungbang Pantai, Lombok Tengah",
+        "Deskripsi_ID": "Pantai Pantai Teluk Ujung yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Pantai Teluk Ujung beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3684585,
+          -8.9514689
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gili Penyu",
+        "Jenis_Wisata": "Gili / Pulau",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Lainnya, Lombok Tengah",
+        "Deskripsi_ID": "Objek wisata Gili Penyu yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Gili Penyu tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2980019,
+          -8.906311
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Mandalika Princess Statue",
+        "Jenis_Wisata": "Ikon / Landmark",
+        "Kategori": "Admin-commemorative",
+        "Lokasi_Detail": "Sengkol, Pujut",
+        "Deskripsi_ID": "Objek wisata Mandalika Princess Statue yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Mandalika Princess Statue tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2819134,
+          -8.8933603
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Kuta Lombok",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Kuta, Pujut",
+        "Deskripsi_ID": "Pantai Pantai Kuta Lombok yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Pantai Kuta Lombok beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1415999,
+          -8.8690049
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Serangan",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Serangan, Praya Barat Daya",
+        "Deskripsi_ID": "Pantai Pantai Serangan yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Pantai Serangan beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2528367,
+          -8.8896536
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Gua Sumur Lombok",
+        "Jenis_Wisata": "Goa",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Kuta, Pujut",
+        "Deskripsi_ID": "Objek wisata Gua Sumur Lombok yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Gua Sumur Lombok tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2993792,
+          -8.5541326
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Lembah Surga Rangkep",
+        "Jenis_Wisata": "Glamping / Alam",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Karang Sidemen, Batukliang Utara",
+        "Deskripsi_ID": "Objek wisata Lembah Surga Rangkep yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Lembah Surga Rangkep tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0365751,
+          -8.8427315
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Buwun Mas Hills",
+        "Jenis_Wisata": "Bukit / Panorama",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Buwun Mas, Sekotong",
+        "Deskripsi_ID": "Objek wisata Buwun Mas Hills yang menyuguhkan daya tarik alam dan budaya khas Lombok Barat.",
+        "Deskripsi_EN": "The Buwun Mas Hills tourism destination showcasing the natural and cultural charm of Lombok Barat."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.239377,
+          -8.9164964
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Areguling Beach",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Prabu, Pujut",
+        "Deskripsi_ID": "Pantai Areguling Beach yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Areguling Beach beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2932712,
+          -8.4996206
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Air Terjun Segenter Pengkoaq",
+        "Jenis_Wisata": "Air Terjun",
+        "Kategori": "Morpho-geographic",
+        "Lokasi_Detail": "Lebah Sempage, Narmada",
+        "Deskripsi_ID": "Keindahan air terjun alami Air Terjun Segenter Pengkoaq yang menawarkan keasrian alam dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The beauty of the natural Air Terjun Segenter Pengkoaq waterfall offering natural beauty and a tranquil atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0723832,
+          -8.6338112
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Kuranji",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Kuranji Dalang, Labuapi",
+        "Deskripsi_ID": "Pantai Pantai Kuranji yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Pantai Kuranji beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1379991,
+          -8.6119799
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "WISATA GIONG SIU BABAKAN",
+        "Jenis_Wisata": "Wisata Alam",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Turida, Sandubaya",
+        "Deskripsi_ID": "Objek wisata WISATA GIONG SIU BABAKAN yang menyuguhkan daya tarik alam dan budaya khas Mataram.",
+        "Deskripsi_EN": "The WISATA GIONG SIU BABAKAN tourism destination showcasing the natural and cultural charm of Mataram."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2296197,
+          -8.5404619
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Tibu Atas Waterfall",
+        "Jenis_Wisata": "Air Terjun",
+        "Kategori": "Morpho-geographic",
+        "Lokasi_Detail": "Sesaot, Narmada",
+        "Deskripsi_ID": "Keindahan air terjun alami Tibu Atas Waterfall yang menawarkan keasrian alam dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The beauty of the natural Tibu Atas Waterfall waterfall offering natural beauty and a tranquil atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0468214,
+          -8.7642224
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Ekowisata Mangrove Tanjung Batu",
+        "Jenis_Wisata": "Ekowisata Mangrove",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Sekotong Barat, Sekotong",
+        "Deskripsi_ID": "Objek wisata Ekowisata Mangrove Tanjung Batu yang menyuguhkan daya tarik alam dan budaya khas Lombok Barat.",
+        "Deskripsi_EN": "The Ekowisata Mangrove Tanjung Batu tourism destination showcasing the natural and cultural charm of Lombok Barat."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0837498,
+          -8.8733392
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Pengantap",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Sekotong Barat, Sekotong",
+        "Deskripsi_ID": "Pantai Pantai Pengantap yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Pantai Pengantap beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3880692,
+          -8.9473793
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Bilasayak",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Mertak, Pujut",
+        "Deskripsi_ID": "Pantai Pantai Bilasayak yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Pantai Bilasayak beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2337097,
+          -8.9085713
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Goa Petelu",
+        "Jenis_Wisata": "Goa",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Prabu, Pujut",
+        "Deskripsi_ID": "Objek wisata Goa Petelu yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Goa Petelu tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1714874,
+          -8.6042387
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Taman Mekarsari Narmada",
+        "Jenis_Wisata": "Taman Rekreasi",
+        "Kategori": "Admin-commemorative",
+        "Lokasi_Detail": "Mekarsari, Narmada",
+        "Deskripsi_ID": "Objek wisata Taman Mekarsari Narmada yang menyuguhkan daya tarik alam dan budaya khas Lombok Barat.",
+        "Deskripsi_EN": "The Taman Mekarsari Narmada tourism destination showcasing the natural and cultural charm of Lombok Barat."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3931952,
+          -8.9259662
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Mertak",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Kuta, Pujut",
+        "Deskripsi_ID": "Pantai Pantai Mertak yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Pantai Mertak beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3389146,
+          -8.5472131
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Trekking Rinjani Second Summit",
+        "Jenis_Wisata": "Trekking / Gunung",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Pemotoh, Batukliang Utara",
+        "Deskripsi_ID": "Objek wisata Trekking Rinjani Second Summit yang menyuguhkan daya tarik alam dan budaya khas Lombok Tengah.",
+        "Deskripsi_EN": "The Trekking Rinjani Second Summit tourism destination showcasing the natural and cultural charm of Lombok Tengah."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.07478,
+          -8.6225333
+        ]
+      },
+      "properties": {
+        "Nama_Lokasi": "Pantai Batas Senja Dua",
+        "Jenis_Wisata": "Pantai",
+        "Kategori": "Descriptive-natural",
+        "Lokasi_Detail": "Jempong Baru, Sekarbela",
+        "Deskripsi_ID": "Pantai Pantai Batas Senja Dua yang menawarkan panorama laut biru yang indah dan suasana yang menenangkan.",
+        "Deskripsi_EN": "The Pantai Batas Senja Dua beach offering beautiful blue ocean panoramas and a relaxing atmosphere."
+      }
     }
   ]
 }
